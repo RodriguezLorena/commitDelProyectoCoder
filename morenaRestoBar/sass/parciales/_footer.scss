@@ -3,7 +3,13 @@
 .footer__padre {
     display: inline;
     width: 100%;
-
+    hr{
+        background-color: rgb(98, 96, 96);
+        height: 0.5rem;
+        width: 100%;
+        margin: 0%;
+        
+    }
 
     .footer__icono {
         text-align: center;
@@ -18,8 +24,8 @@
     }
 
     .footer__img {
-        width: 32px;
-        height: 32px;
+        width: 30px;
+        height: 30px;
         margin: 0.3rem;
     }
 

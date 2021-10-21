@@ -1,4 +1,70 @@
 @charset "UTF-8";
+/*color de fuente*/
+/*es el tamaño de varios que ocupo mas*/
+/*color de fondo*/
+/*tamaño general, vale para padding, margin, fuentes, etc */
+/*los bordes de todas mis images para darle luz y volumen*/
+/*color de fuente*/
+/*es el tamaño de varios que ocupo mas*/
+/*color de fondo*/
+/*tamaño general, vale para padding, margin, fuentes, etc */
+/*los bordes de todas mis images para darle luz y volumen*/
+.main__padre {
+  background-color: #1e1e22;
+}
+
+.main__padre .main__redes {
+  width: 30px;
+  height: 30px;
+  margin: 0.5rem;
+}
+
+.main__padre h2 {
+  color: white;
+  font-size: 2rem;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+@media screen and (max-width: 320px) {
+  .main__padre h2 {
+    padding: 1rem;
+  }
+}
+
+.main__padre p {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 0 1rem;
+}
+
+@media screen and (max-width: 320px) {
+  .main__padre p {
+    font-size: 1rem;
+  }
+}
+
+.main__padre .main__imagen {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media screen and (max-width: 320px) {
+  .main__padre .main__imagen {
+    height: auto;
+  }
+}
+
+h3 {
+  color: white;
+  font-size: 1.5rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
 
 /*color de fuente*/
 /*es el tamaño de varios que ocupo mas*/
@@ -49,9 +115,8 @@
 
 .main__padre .main__imagen {
   width: 100%;
-  height: 600px;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 @media screen and (max-width: 320px) {
@@ -64,76 +129,8 @@ h3 {
   color: white;
   font-size: 1.5rem;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-/*color de fuente*/
-/*es el tamaño de varios que ocupo mas*/
-/*color de fondo*/
-/*tamaño general, vale para padding, margin, fuentes, etc */
-/*los bordes de todas mis images para darle luz y volumen*/
-/*color de fuente*/
-/*es el tamaño de varios que ocupo mas*/
-/*color de fondo*/
-/*tamaño general, vale para padding, margin, fuentes, etc */
-/*los bordes de todas mis images para darle luz y volumen*/
-.main__padre {
-  background-color: #1e1e22;
-}
-
-.main__padre .main__redes {
-  width: 30px;
-  height: 30px;
-  margin: 0.5rem;
-}
-
-.main__padre h2 {
-  color: white;
-  font-size: 2rem;
-  font-family: 'Open Sans', sans-serif;
-  text-align: center;
-}
-
-@media screen and (max-width: 320px) {
-  .main__padre h2 {
-    padding: 1rem;
-  }
-}
-
-.main__padre p {
-  font-family: 'Open Sans', sans-serif;
-  color: white;
-  text-align: center;
-  font-size: 1.2rem;
-  padding: 0 1rem;
-}
-
-@media screen and (max-width: 320px) {
-  .main__padre p {
-    font-size: 1rem;
-  }
-}
-
-.main__padre .main__imagen {
-  width: 100%;
-  height: 600px;
-  -o-object-fit: cover;
-  object-fit: cover;
-}
-
-@media screen and (max-width: 320px) {
-  .main__padre .main__imagen {
-    height: auto;
-  }
-}
-
-h3 {
-  color: white;
-  font-size: 1.5rem;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .nosotros {
@@ -153,7 +150,7 @@ h3 {
   background-image: url(../imgPrincipal/nosotrosPortada.jpg);
   width: 100%;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 .presentacion {
@@ -171,7 +168,7 @@ h3 {
 .presentacion__item {
   background-color: rgba(218, 210, 210, 0.253);
   -webkit-box-shadow: 0 4px 8px rgba(189, 186, 186, 0.712);
-  box-shadow: 0 4px 8px rgba(189, 186, 186, 0.712);
+          box-shadow: 0 4px 8px rgba(189, 186, 186, 0.712);
 }
 
 @media screen and (max-width: 320px) {
@@ -246,9 +243,8 @@ h3 {
 
 .main__padre .main__imagen {
   width: 100%;
-  height: 600px;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 @media screen and (max-width: 320px) {
@@ -261,15 +257,15 @@ h3 {
   color: white;
   font-size: 1.5rem;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 /*los estilos de la seccion carta los traigo con import y otros los manipule directamente desde
 bootstrap*/
 .carta {
   -webkit-box-shadow: 0 4px 8px rgba(189, 186, 186, 0.712);
-  box-shadow: 0 4px 8px rgba(189, 186, 186, 0.712);
+          box-shadow: 0 4px 8px rgba(189, 186, 186, 0.712);
   /*este estilo lo ocupo para darle luz a las imagenes*/
 }
 
@@ -322,9 +318,8 @@ bootstrap*/
 
 .main__padre .main__imagen {
   width: 100%;
-  height: 600px;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 @media screen and (max-width: 320px) {
@@ -337,8 +332,8 @@ h3 {
   color: white;
   font-size: 1.5rem;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .evento {
@@ -355,9 +350,9 @@ h3 {
 .evento__img {
   width: 45%;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   -webkit-box-shadow: 0 4px 8px rgba(189, 186, 186, 0.712);
-  box-shadow: 0 4px 8px rgba(189, 186, 186, 0.712);
+          box-shadow: 0 4px 8px rgba(189, 186, 186, 0.712);
 }
 
 @media screen and (max-width: 320px) {
@@ -371,7 +366,7 @@ h3 {
   .evento__img {
     width: 100%;
     -webkit-box-shadow: none;
-    box-shadow: none;
+            box-shadow: none;
   }
 }
 
@@ -380,16 +375,16 @@ h3 {
   text-align: center;
   width: 45%;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 @media screen and (max-width: 320px) {
   .evento__img--item {
     padding: 1rem;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     display: inline;
   }
 }
@@ -398,8 +393,8 @@ h3 {
   .evento__img--item {
     padding: 1rem;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     display: inline;
   }
 }
@@ -453,9 +448,8 @@ h3 {
 
 .main__padre .main__imagen {
   width: 100%;
-  height: 600px;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 @media screen and (max-width: 320px) {
@@ -468,8 +462,8 @@ h3 {
   color: white;
   font-size: 1.5rem;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .contacto {
@@ -494,8 +488,8 @@ h3 {
 
 .contacto__formulario {
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
   padding: 1rem;
   margin-bottom: 1rem;
@@ -508,7 +502,7 @@ h3 {
   margin-bottom: 1rem;
   text-align: center;
   -webkit-box-shadow: 0 4px 8px rgba(189, 186, 186, 0.712);
-  box-shadow: 0 4px 8px rgba(189, 186, 186, 0.712);
+          box-shadow: 0 4px 8px rgba(189, 186, 186, 0.712);
 }
 
 /*color de fuente*/
@@ -521,13 +515,20 @@ h3 {
   width: 100%;
 }
 
+.footer__padre hr {
+  background-color: #626060;
+  height: 0.5rem;
+  width: 100%;
+  margin: 0%;
+}
+
 .footer__padre .footer__icono {
   text-align: center;
   font-size: 1rem;
   color: white;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: #1e1e22;
 }
 
@@ -538,8 +539,8 @@ h3 {
 }
 
 .footer__padre .footer__img {
-  width: 32px;
-  height: 32px;
+  width: 30px;
+  height: 30px;
   margin: 0.3rem;
 }
 
@@ -566,7 +567,7 @@ h3 {
   padding: 0;
   list-style: none;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   text-decoration: none;
 }
 
@@ -583,7 +584,6 @@ h3 {
     transform-origin: 50% 100%;
     opacity: 0;
   }
-
   100% {
     -webkit-transform: translateY(0) rotateX(0) scale(1);
     transform: translateY(0) rotateX(0) scale(1);
@@ -601,7 +601,6 @@ h3 {
     transform-origin: 50% 100%;
     opacity: 0;
   }
-
   100% {
     -webkit-transform: translateY(0) rotateX(0) scale(1);
     transform: translateY(0) rotateX(0) scale(1);
@@ -634,11 +633,9 @@ h3 {
     letter-spacing: 1em;
     opacity: 0;
   }
-
   40% {
     opacity: 0.6;
   }
-
   100% {
     letter-spacing: normal;
     opacity: 1;
@@ -650,11 +647,9 @@ h3 {
     letter-spacing: 1em;
     opacity: 0;
   }
-
   40% {
     opacity: 0.6;
   }
-
   100% {
     letter-spacing: normal;
     opacity: 1;
@@ -673,11 +668,9 @@ h3 {
     transform: translateZ(-700px);
     opacity: 0;
   }
-
   40% {
     opacity: .6;
   }
-
   100% {
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
@@ -692,11 +685,9 @@ h3 {
     transform: translateZ(-700px);
     opacity: 0;
   }
-
   40% {
     opacity: .6;
   }
-
   100% {
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
@@ -714,27 +705,22 @@ h3 {
     -webkit-transform: translate(0);
     transform: translate(0);
   }
-
   20% {
     -webkit-transform: translate(-2px, 2px);
     transform: translate(-2px, 2px);
   }
-
   40% {
     -webkit-transform: translate(-2px, -2px);
     transform: translate(-2px, -2px);
   }
-
   60% {
     -webkit-transform: translate(2px, 2px);
     transform: translate(2px, 2px);
   }
-
   80% {
     -webkit-transform: translate(2px, -2px);
     transform: translate(2px, -2px);
   }
-
   100% {
     -webkit-transform: translate(0);
     transform: translate(0);
@@ -746,31 +732,25 @@ h3 {
     -webkit-transform: translate(0);
     transform: translate(0);
   }
-
   20% {
     -webkit-transform: translate(-2px, 2px);
     transform: translate(-2px, 2px);
   }
-
   40% {
     -webkit-transform: translate(-2px, -2px);
     transform: translate(-2px, -2px);
   }
-
   60% {
     -webkit-transform: translate(2px, 2px);
     transform: translate(2px, 2px);
   }
-
   80% {
     -webkit-transform: translate(2px, -2px);
     transform: translate(2px, -2px);
   }
-
   100% {
     -webkit-transform: translate(0);
     transform: translate(0);
   }
 }
-
 /*# sourceMappingURL=main.css.map */
