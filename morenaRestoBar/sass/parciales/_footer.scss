@@ -1,8 +1,9 @@
-@import "./variables";
+ @import "./variables";
 
 .footer__padre {
     display: inline;
     width: 100%;
+    
     hr{
         background-color: rgb(98, 96, 96);
         height: 0.5rem;
@@ -16,7 +17,7 @@
         font-size: $rem;
         color: $color;
         align-items: center;
-        background-color: $fondo;
+        
 
         @include movil {
             font-size: $rem;

@@ -6,11 +6,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="descripcion"
-        content="En Morena hacemos de tus encuentros con amigos, una aventura de sabores. Te invitamos a visitarnos" />
-    <meta name="keywords"
-        content="Restaurante, Restaurante en Virasoro, Resto, Bar, Morena, Eventos, Cena, Comida, Virasoro" />
     <title>Morena Resto Bar</title>
+    <meta name="descripcion" content="Tus Eventos en Morena. Tu imaginacion hecha realidad" />
+    <meta name="keywords" content="Restaurante, Restaurante en Virasoro, Resto, Bar, Morena, Eventos, Cena, Comida, Virasoro" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,12 +18,11 @@
 </head>
 
 <body class="main__padre">
-    <!--se repite en todas las secciones-->
     <header class="sectionNav">
-
+        <!--se repite en todas las secciones-->
         <nav class="navbar navbar-expand-lg navbar-expand-md navbar-dark bg-dark">
             <div class="container-fluid main__padre">
-                <a class="navbar-brand tracking-in-contract" href="index.html">
+                <a class="navbar-brand tracking-in-contract" href="./index.html">
                     <h1>morena</h1>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -33,8 +30,8 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                    <ul class="navbar-nav align-items-end tracking-in-contract">
-                        <li class="nav-item ">
+                    <ul class="navbar-nav align-items-end tracking-in-contract ">
+                        <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="./secciones/nosotros.html">Nosotros</a>
                         </li>
                         <li class="nav-item">
@@ -69,45 +66,55 @@
         </section>
     </header>
     <main>
-        <div class="main__padre slide-in-elliptic-top-fwd">
-            <a class="text-decoration-none" href="https://goo.gl/maps/yoQG48WqSb5DAg8Q9" target="_blank">
-                <h2 class="vibrate-1">Bienvenidos a Morena resto bar</h2>
-            </a>
+        <section class="main__padre">
+            <h2>Morena Resto Bar</h2>
+            <h3 >Bienvenidos</h3>
+            <div class="container-fluid">
+                <div class="row">
+                  <div class="col-6">
+                   
+                   <h3>Visitanos</h3>
+                   <a href="https://goo.gl/maps/YLpxzTDqT2ZYYsGe9" target="_blank"><img class=" main__imagen" src="./imgPrincipal/principalIndex.jpg" alt=""></a>
+                    
+                  </div>
+                  <div class="col-6 ">
+                    <h3 >Nuestra carta</h3>
+                   
+                    <a href="./secciones/menu.html"><img class="main__imagen" src="./imgPrincipal/principalIndex.jpg" alt=""></a>
+                  </div>
+                </div>
+              </div>
+        </section>
 
-            <div>
-                <p class="tracking-in-expand-fwd">Te invitamos a vivir una experiencia llena de sabores</p>
-            </div>
-            <img class="main__imagen" src="./imgPrincipal/principalIndex.jpg" alt="imagen de una hamburguesa">
-        </div>
     </main>
-   
     <footer class="footer__padre">
         <!--se repite en todas las secciones-->
-       <hr>
+        <hr>
         <div class="footer__icono">
             <p>Seguinos</p>
+
             <a href="#">
-                <img class="footer__img " src="iconos/instagram_ig_logo_icon_181651.png" class="card-img-top ubicacion"
-                    alt="icono instagram">
+                <img class="footer__img" src="./iconos/instagram_ig_logo_icon_181651.png"
+                    class="card-img-top ubicacion" alt="icono instagram">
             </a>
             <a href="#">
-                <img class="footer__img" src="iconos/facebook_logo_icon_181652.png" alt="icono facebook">
+                <img class="footer__img" src="./iconos/facebook_logo_icon_181652.png" alt="icono facebook">
             </a>
 
             <a href="#">
-                <img class="footer__img" src="iconos/twitter_logo_icon_181645.png" alt="icono twitter">
+                <img class="footer__img" src="./iconos/twitter_logo_icon_181645.png" alt="icono twitter">
             </a>
-            <a>
-                <img class="footer__img" src="iconos/whatsapp_logo_icon_181644.png" alt="icono whatsapp">
+            <a href="#">
+                <img class="footer__img" src="./iconos/whatsapp_logo_icon_181644.png" alt="icono whatsapp">
             </a>
-            <a>
-                <img class="footer__img" src="iconos/email_mail_icon_181653.png" alt="icono casilla de email">
+            <a href="#">
+                <img class="footer__img" src="./iconos/email_mail_icon_181653.png" alt="icono casilla de email">
             </a>
 
             <div class="footer__icono">
                 <p>encontranos en Av.Lavalle 2371</p>
                 <a href="#">
-                    <img class="footer__img" src="iconos/iconoNosotros.png" alt="icono de ubicación">
+                    <img class="footer__img" src="./iconos/iconoNosotros.png" alt="icono ubicación">
                 </a>
             </div>
             <div class="footer__address">
@@ -115,8 +122,8 @@
                     todos los derechos reservados-lorenarodriguezdev@gmail.com
                 </address>
             </div>
-    </footer>
 
+    </footer>
     <!--AOS-->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
