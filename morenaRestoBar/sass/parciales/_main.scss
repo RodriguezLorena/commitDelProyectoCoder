@@ -4,17 +4,6 @@
 
 .main__padre {
     background-color: $fondo;
-  
-    
-
-    .main__redes {
-        width: 30px;
-        height: 30px;
-        margin: 0.5rem;
-
-
-
-    }
 
     h2 {
         color: $color;
@@ -42,12 +31,11 @@
 
         @include movil {
             font-size: 1rem;
-
-
         }
 
-
     }
+
+
 
     .main__imagen {
         width: 100%;
@@ -56,10 +44,11 @@
         border-radius: 5px;
         margin-bottom: 1rem;
         box-shadow: 0 5px 5px cornsilk;
-      
-       
-       
+
+
+
         @include movil {
+            flex-direction: column;
             height: auto;
 
         }
