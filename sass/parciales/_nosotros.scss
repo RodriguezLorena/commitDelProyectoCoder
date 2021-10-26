@@ -26,7 +26,7 @@
         left: 2rem;
         right: 2rem;
         justify-content: center;
-        color: black;
+        color: $fuente;
         border-radius: 15px;
         font-size: 3rem;
 
@@ -39,7 +39,7 @@
         }
 
         h3 {
-            color: white;
+            color: $color;
             font-size: 1.5rem;
         }
 
@@ -55,6 +55,7 @@
         padding: 1rem;
         font-size: 1.5rem;
         align-items: center;
+        
 
 
 
@@ -64,7 +65,7 @@
         }
 
         .btn {
-            color: white;
+            color:$color;
             background-color: #6c6d6e;
             padding: 1rem;
             margin-left: 15rem;
@@ -95,13 +96,13 @@
     background-color: #6c6d6e94;
 
     .presentacion__item {
-        color: black;
+        color:$fuente;
         font-size: 3rem;
 
     }
 
     .presentacion__p {
-        color: white;
+        color: $color;
         font-size: 1.5rem;
     }
 
@@ -112,7 +113,7 @@
     background-color: $fondo;
 
     .tit {
-        color: white;
+        color: $color;
 
         @include movil {
             font-size: 1rem;
@@ -120,7 +121,7 @@
     }
 
     .btn-close {
-        background-color: white;
+        background-color: $color;
     }
 
 }
@@ -129,7 +130,7 @@
     background-color: $fondo;
 
     .body__texto {
-        color: white;
+        color:  $color;
     }
 
     .img__off {

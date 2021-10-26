@@ -1,9 +1,11 @@
 @charset "UTF-8";
 /*color de fuente*/
+/*color de fuente*/
 /*es el tamaño de varios que ocupo mas*/
 /*color de fondo*/
 /*tamaño general, vale para padding, margin, fuentes, etc */
 /*los bordes de todas mis images para darle luz y volumen*/
+/*color de fuente*/
 /*color de fuente*/
 /*es el tamaño de varios que ocupo mas*/
 /*color de fondo*/
@@ -44,7 +46,7 @@
 
 .main__padre .main__contenedor .main__tex h2 {
   position: absolute;
-  top: 250px;
+  top: 100px;
   left: 2rem;
   right: 2rem;
   -webkit-box-pack: center;
@@ -57,7 +59,8 @@
 
 @media screen and (max-width: 320px) {
   .main__padre .main__contenedor .main__tex h2 {
-    font-size: 2rem;
+    margin-top: 0%;
+    font-size: 3rem;
     padding: 0%;
     text-align: center;
   }
@@ -116,10 +119,12 @@
 }
 
 /*color de fuente*/
+/*color de fuente*/
 /*es el tamaño de varios que ocupo mas*/
 /*color de fondo*/
 /*tamaño general, vale para padding, margin, fuentes, etc */
 /*los bordes de todas mis images para darle luz y volumen*/
+/*color de fuente*/
 /*color de fuente*/
 /*es el tamaño de varios que ocupo mas*/
 /*color de fondo*/
@@ -160,7 +165,7 @@
 
 .main__padre .main__contenedor .main__tex h2 {
   position: absolute;
-  top: 250px;
+  top: 100px;
   left: 2rem;
   right: 2rem;
   -webkit-box-pack: center;
@@ -173,7 +178,8 @@
 
 @media screen and (max-width: 320px) {
   .main__padre .main__contenedor .main__tex h2 {
-    font-size: 2rem;
+    margin-top: 0%;
+    font-size: 3rem;
     padding: 0%;
     text-align: center;
   }
@@ -377,10 +383,12 @@
 }
 
 /*color de fuente*/
+/*color de fuente*/
 /*es el tamaño de varios que ocupo mas*/
 /*color de fondo*/
 /*tamaño general, vale para padding, margin, fuentes, etc */
 /*los bordes de todas mis images para darle luz y volumen*/
+/*color de fuente*/
 /*color de fuente*/
 /*es el tamaño de varios que ocupo mas*/
 /*color de fondo*/
@@ -421,7 +429,7 @@
 
 .main__padre .main__contenedor .main__tex h2 {
   position: absolute;
-  top: 250px;
+  top: 100px;
   left: 2rem;
   right: 2rem;
   -webkit-box-pack: center;
@@ -434,7 +442,8 @@
 
 @media screen and (max-width: 320px) {
   .main__padre .main__contenedor .main__tex h2 {
-    font-size: 2rem;
+    margin-top: 0%;
+    font-size: 3rem;
     padding: 0%;
     text-align: center;
   }
@@ -589,10 +598,12 @@ bootstrap*/
 }
 
 /*color de fuente*/
+/*color de fuente*/
 /*es el tamaño de varios que ocupo mas*/
 /*color de fondo*/
 /*tamaño general, vale para padding, margin, fuentes, etc */
 /*los bordes de todas mis images para darle luz y volumen*/
+/*color de fuente*/
 /*color de fuente*/
 /*es el tamaño de varios que ocupo mas*/
 /*color de fondo*/
@@ -633,7 +644,7 @@ bootstrap*/
 
 .main__padre .main__contenedor .main__tex h2 {
   position: absolute;
-  top: 250px;
+  top: 100px;
   left: 2rem;
   right: 2rem;
   -webkit-box-pack: center;
@@ -646,7 +657,8 @@ bootstrap*/
 
 @media screen and (max-width: 320px) {
   .main__padre .main__contenedor .main__tex h2 {
-    font-size: 2rem;
+    margin-top: 0%;
+    font-size: 3rem;
     padding: 0%;
     text-align: center;
   }
@@ -722,9 +734,8 @@ bootstrap*/
 
 .eventos__contenedor .eventos__tex {
   position: absolute;
-  top: 50px;
-  margin-left: 4rem;
-  margin-right: 4rem;
+  top: 20%;
+  margin-left: 28%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -736,20 +747,26 @@ bootstrap*/
 
 @media screen and (max-width: 320px) {
   .eventos__contenedor .eventos__tex {
-    top: auto;
-    left: auto;
-    text-align: center;
-    margin: 5%;
+    top: 10%;
+    margin-right: 10%;
   }
 }
 
-.eventos__contenedor .eventos__tex p {
+@media screen and (max-width: 920px) {
+  .eventos__contenedor .eventos__tex {
+    margin-left: 10%;
+  }
+}
+
+.eventos__contenedor .eventos__tex h2 {
   font-size: 2rem;
+  color: black;
+  font-size: 3rem;
 }
 
 @media screen and (max-width: 320px) {
-  .eventos__contenedor .eventos__tex p {
-    font-size: 1.5rem;
+  .eventos__contenedor .eventos__tex h2 {
+    font-size: 2rem;
   }
 }
 
@@ -780,10 +797,12 @@ bootstrap*/
 }
 
 /*color de fuente*/
+/*color de fuente*/
 /*es el tamaño de varios que ocupo mas*/
 /*color de fondo*/
 /*tamaño general, vale para padding, margin, fuentes, etc */
 /*los bordes de todas mis images para darle luz y volumen*/
+/*color de fuente*/
 /*color de fuente*/
 /*es el tamaño de varios que ocupo mas*/
 /*color de fondo*/
@@ -824,7 +843,7 @@ bootstrap*/
 
 .main__padre .main__contenedor .main__tex h2 {
   position: absolute;
-  top: 250px;
+  top: 100px;
   left: 2rem;
   right: 2rem;
   -webkit-box-pack: center;
@@ -837,7 +856,8 @@ bootstrap*/
 
 @media screen and (max-width: 320px) {
   .main__padre .main__contenedor .main__tex h2 {
-    font-size: 2rem;
+    margin-top: 0%;
+    font-size: 3rem;
     padding: 0%;
     text-align: center;
   }
@@ -1013,6 +1033,7 @@ bootstrap*/
 }
 
 /*color de fuente*/
+/*color de fuente*/
 /*es el tamaño de varios que ocupo mas*/
 /*color de fondo*/
 /*tamaño general, vale para padding, margin, fuentes, etc */
@@ -1131,7 +1152,7 @@ bootstrap*/
 .sectionNav .sectionNav__redes {
   width: 30px;
   height: 30px;
-  margin: 0.5rem;
+  margin: 1rem;
 }
 
 .tracking-in-contract {

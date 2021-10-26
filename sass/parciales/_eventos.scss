@@ -24,27 +24,34 @@
 
   .eventos__tex {
     position: absolute;
-    top: 50px;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    top: 20%;
+    margin-left: 28%;
     justify-content: center;
     border-radius: 15px;
     display: flex;
 
+
+
     @include movil {
-      top: auto;
-      left: auto;
-      text-align: center;
-      margin: 5%;
+      top: 10%;
+      margin-right: 10%;
+
 
     }
 
-    p {
+    @include notebook {
+      margin-left: 10%;
+
+    }
+
+    h2 {
       font-size: 2rem;
+      color: $fuente;
+      ;
+      font-size: 3rem;
 
       @include movil {
-
-        font-size: 1.5rem;
+        font-size: 2rem;
       }
     }
   }
@@ -53,7 +60,7 @@
 }
 
 .eventos {
-  color: white;
+  color: $color;
   text-align: center;
   font-size: 1.8rem;
   padding-top: 2rem;
@@ -71,7 +78,7 @@
   .card-body {
 
     .card-title {
-      color: white;
+      color: $color;
       text-align: center;
       font-size: 2rem;
     }

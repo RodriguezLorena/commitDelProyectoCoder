@@ -38,11 +38,12 @@
 
         .main__tex h2 {
             position: absolute;
-            top: 250px;
+            top: 100px;
             left: 2rem;
             right: 2rem;
             justify-content: center;
-            color: black;
+            color: $fuente;
+            ;
             border-radius: 15px;
             font-size: 4rem;
 
@@ -50,8 +51,8 @@
 
 
             @include movil {
-
-                font-size: 2rem;
+                margin-top: 0%;
+                font-size: 3rem;
                 padding: 0%;
                 text-align: center;
 
