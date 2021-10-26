@@ -5,20 +5,13 @@
      width: 100%;
 
 
-     hr {
-         background-color: rgb(98, 96, 96);
-         height: 0.5rem;
-         width: 100%;
-         margin: 0%;
-
-     }
 
      .footer__icono {
          text-align: center;
          font-size: $rem;
          color: $color;
          align-items: center;
-         background-color: rgb(46, 45, 45);
+         background-color: #212529;
 
 
          @include movil {
@@ -43,7 +36,7 @@
          text-align: end;
          padding-bottom: 0.5rem;
          margin-right: 0.5rem;
-         background-color: rgb(46, 45, 45);
+         background-color: #212529;
          ;
 
          @include tablet {

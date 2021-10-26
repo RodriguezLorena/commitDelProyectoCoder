@@ -6,6 +6,114 @@
 bootstrap*/
 
 .carta {
-    box-shadow: $shadow;
-    /*este estilo lo ocupo para darle luz a las imagenes*/
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+    .btn-secundary {
+        box-shadow: $shadow;
+        background-color: $fondo;
+        border-color: $fondo;
+
+
+
+    }
+
+    .btn-secundary:hover {
+
+        background-color: #6c6d6e;
+        border-color: $fondo;
+
+    }
+
+    .btn-secundary:hover h3 {
+        color: black;
+
+    }
+
+    .btn {
+        transition: all 0.5s;
+    }
+
+    .modal-header {
+        background-color: $fondo;
+        color: white;
+
+        #pizza {
+            font-size: 2rem;
+            letter-spacing: 10px;
+        }
+
+        #hamburguesaslabel {
+            font-size: 1rem;
+            letter-spacing: 5px;
+
+        }
+
+        #sandwichlabel {
+            font-size: 2rem;
+            letter-spacing: 5px;
+        }
+
+        #alPlatolabel {
+            font-size: 2rem;
+            letter-spacing: 5px;
+        }
+
+        #picadalabel {
+            font-size: 2rem;
+            letter-spacing: 10px;
+        }
+
+        #tostadolabel {
+            font-size: 2rem;
+            letter-spacing: 5px;
+        }
+    }
+
+    .carritoModal {
+        text-align: right;
+
+
+    }
+
+
+    .modal-body {
+
+        background-image: url(../imagenesMenu/sandwich.jpg);
+
+
+
+
+    }
+
+
+
+}
+
+.card-text {
+    color: white;
+    font-size: 1rem;
+    background-color: rgba(0, 0, 0, 0.274);
+
+
+}
+
+.card-precio {
+    color: white;
+    font-size: 1rem;
+    background-color: rgba(0, 0, 0, 0.274);
+    text-align: right;
+
+}
+
+.modal-footer {
+    background-color: $fondo;
+
+    .spam {
+        color: white;
+    }
+
+    .wsp {
+        width: 40px;
+    }
 }

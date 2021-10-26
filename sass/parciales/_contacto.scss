@@ -3,39 +3,117 @@
 @import "./media";
 
 
-.contacto {
-    display: inline-block;
-    background-image: url(../imgPrincipal/fondoContacto2.jpg);
-    padding: 0 6rem;
+.redes {
+    color: white;
+    text-align: center;
+    font-size: 1.8rem;
 
-    @include movil {
-        padding: 0;
-        margin: 0 $rem;
+}
 
-    }
+.redes__iconos {
+    background-image: url(../imagenesMenu/pizza-gf11bc2b89_640.jpg);
+    text-align: center;
+    border: solid 2px white;
+    height: 200px;
+    padding: 1rem;
+    border-radius: 15px;
+    box-shadow: $shadow;
 
-    @include tablet {
-        padding: 0;
-        margin: 0 $rem;
-
-    }
-
-    &__formulario {
-        justify-content: center;
-        text-align: center;
-        padding: $rem;
-        margin-bottom: $rem;
-        color: $color;
-        background-color: rgba(170, 165, 165, 0.144);
+    .redes__iconos--P {
+        color: black;
+        font-size: 1.2rem;
 
     }
+}
 
-    &__item {
-        background-color: rgba(87, 85, 85, 0.479);
-        margin-bottom: $rem;
-        text-align: center;
+.main__contacto {
+    display: block;
+    padding: 1rem;
+    color: white;
+    width: 100%;
+
+
+
+
+    .main__formulario {
+        border-radius: 15px;
+        padding: 1rem;
+        background-image: url(../imgPrincipal/fondoContacto2.jpg);
         box-shadow: $shadow;
+
+        .main__titulo {
+            text-align: center;
+            font-size: 2rem;
+        }
+
+        .formulario__name {
+            color: black;
+            text-align: center;
+            font-size: 1.5rem;
+
+
+            .formulario__name--item {
+                color: black;
+                width: 80%;
+            }
+        }
+
+        .formulario__sucursal {
+            margin: 2rem;
+            font-size: 1.5rem;
+            color: white;
+
+
+            .formulario__labelaction {
+                width: 20%;
+                text-align: center;
+                box-shadow: $shadow;
+
+                @include tablet {
+                    width: 100%;
+                }
+
+                @include movil {
+                    width: 100%;
+                }
+
+
+                .formulario__label--option {
+                    background-color: $fondo;
+                    color: white;
+
+                }
+            }
+
+        }
+
+        .formulario__calif {
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            color: black;
+            font-size: 1.5rem;
+
+            .form-label {
+
+                background-color: rgba(255, 255, 255, 0.527);
+                border-radius: 5px;
+                padding: 5px;
+            }
+
+            .boton {
+                background-color: $fondo;
+                box-shadow: $shadow;
+                margin-right: 2rem;
+                color: white;
+                padding: 0.5rem;
+                border-radius: 15px;
+
+                @include movil {
+                    margin: 0%;
+                }
+            }
+        }
+
     }
-
-
 }

@@ -3,52 +3,81 @@
 @import "./media";
 
 
-.evento {
-  display: inline-block;
-  padding: $rem;
 
-  @include movil {
-    padding: 0%;
-  }
+.eventos__contenedor {
+  position: relative;
+  display: flex;
+  text-align: center;
+  contain: content;
 
-  &__img {
-    width: 45%;
+
+
+
+  .eventos__img {
+    width: 100%;
+    height: 400px;
     object-fit: cover;
-    box-shadow: $shadow;
 
-    @include movil {
-      border-radius: 10%;
-      width: 100%;
 
-    }
 
-    @include tablet {
-      width: 100%;
-      box-shadow: none
-    }
   }
 
-  &__img--item {
-    display: inline-block;
-    text-align: center;
-    width: 45%;
+  .eventos__tex {
+    position: absolute;
+    top: 50px;
+    margin-left: 4rem;
+    margin-right: 4rem;
     justify-content: center;
-
+    border-radius: 15px;
+    display: flex;
 
     @include movil {
-      padding: $rem;
-      justify-content: center;
-      display: inline;
+      top: auto;
+      left: auto;
+      text-align: center;
+      margin: 5%;
 
     }
 
-    @include tablet {
-      padding: $rem;
-      justify-content: center;
-      display: inline;
+    p {
+      font-size: 2rem;
 
+      @include movil {
+
+        font-size: 1.5rem;
+      }
     }
-
   }
 
+
+}
+
+.eventos {
+  color: white;
+  text-align: center;
+  font-size: 1.8rem;
+  padding-top: 2rem;
+
+
+}
+
+.eventos__card {
+
+  height: 100%;
+  object-fit: cover;
+  box-shadow: $shadow;
+  background-color: $fondo;
+
+  .card-body {
+
+    .card-title {
+      color: white;
+      text-align: center;
+      font-size: 2rem;
+    }
+
+    .card_texto {
+      font-size: 1rem;
+    }
+  }
 }

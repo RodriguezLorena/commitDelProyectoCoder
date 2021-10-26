@@ -2,57 +2,144 @@
 @import "./main";
 @import "./media";
 
-.nosotros {
-    display: flex;
-    padding: $rem;
 
-    &__texto {
+
+
+
+.nosotros__contenedor {
+    position: relative;
+    display: flex;
+    text-align: center;
+    contain: content;
+
+    .nosotros__img {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+
+
+    }
+
+    .nosotros__tex h2 {
+        position: absolute;
+        top: 250px;
+        left: 2rem;
+        right: 2rem;
+        justify-content: center;
+        color: black;
+        border-radius: 15px;
+        font-size: 3rem;
 
         @include movil {
-            font-size: $rem;
+            top: 30px;
+            font-size: 2rem;
+            padding: 0%;
+            text-align: center;
+
+        }
+
+        h3 {
+            color: white;
+            font-size: 1.5rem;
+        }
+
+    }
+}
+
+.nosotros__presentacion {
+    padding: 1rem;
+    justify-content: center;
+
+
+    .nosotros_parrafo {
+        padding: 1rem;
+        font-size: 1.5rem;
+        align-items: center;
+
+
+
+        @include tablet {
+            font-size: 1rem;
+            padding: 0.5rem;
+        }
+
+        .btn {
+            color: white;
+            background-color: #6c6d6e;
+            padding: 1rem;
+            margin-left: 15rem;
+            box-shadow: $shadow;
+
+            @include movil {
+                margin-left: 4rem;
+            }
+
+            @include tablet {
+                margin-left: 4rem;
+                padding: 0.5rem;
+            }
 
         }
     }
 
-    &__img {
-        background-image: url(../imgPrincipal/nosotrosPortada.jpg);
-        width: 100%;
-        object-fit: cover;
+    .col .nosotros__carrusel {
+        width: 450px;
+        height: auto;
+
+
     }
 
 }
 
-.presentacion {
-    display: inline-block;
-    padding: 0 5rem;
-    text-align: center;
+.presentacion__fondo {
+    background-color: #6c6d6e94;
 
-    @include movil {
-        padding: 0 1rem;
+    .presentacion__item {
+        color: black;
+        font-size: 3rem;
 
     }
 
+    .presentacion__p {
+        color: white;
+        font-size: 1.5rem;
+    }
 
-    &__item {
-        background-color: rgba(218, 210, 210, 0.253);
-        box-shadow: $shadow;
+}
+
+
+.offcanvas-header {
+    background-color: $fondo;
+
+    .tit {
+        color: white;
 
         @include movil {
-            background-color: rgba(218, 210, 210, 0);
-
+            font-size: 1rem;
         }
     }
 
-    &__img {
-        width: 70%;
+    .btn-close {
+        background-color: white;
+    }
+
+}
+
+.offcanvas-body {
+    background-color: $fondo;
+
+    .body__texto {
+        color: white;
+    }
+
+    .img__off {
+        width: 360px;
         height: auto;
+        border-radius: 10px;
 
         @include movil {
-            width: auto;
-        }
-
-        @include tablet {
-            width: auto;
+            width: 280px;
+            height: auto;
         }
     }
 }
