@@ -1,0 +1,51 @@
+
+@import "./variables";
+@import "./media";
+
+
+.sectionNav {
+    background-color: rgb(243, 97, 12);
+     
+    
+     &__item{
+     background-color:rgb(243, 97, 12);
+     
+     &--seccion{
+       font-size: 1.2rem;
+       margin-right: 1rem;
+       color: white;
+       padding: 0%;
+       @include movil {
+         padding-top: 1rem;
+     }
+       
+     }
+     }
+   
+     &__logo {
+       color: white;
+       font-size:3rem;
+       margin-left: 2rem;
+       margin-bottom: 1rem;
+       
+   
+       @include movil {
+         font-size: 2.5rem;
+         margin: 0;
+       }
+   
+     }
+     
+   
+     &__redes {
+       color:white;
+       margin-top: 1rem;
+       margin-right: 1rem;
+       
+      
+      
+     }
+   
+   }
+
+   
