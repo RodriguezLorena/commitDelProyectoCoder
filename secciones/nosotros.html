@@ -19,77 +19,79 @@
 
 <body>
     <header class="sectionNav">
-        <!--se repite en todas las secciones: menu de navegacion-->
-        <nav class="navbar navbar-expand-lg navbar-expand-md navbar-dark bg-dark">
-            <div class="container-fluid main__padre">
-                <a class="navbar-brand tracking-in-contract" href="../index.html">
-                    <h1>morena</h1>
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                    <ul class="navbar-nav align-items-end tracking-in-contract">
-                        <li class="nav-item">
-                            <a class="nav-link active" active aria-current="page"
-                                href="../secciones/nosotros.html">Nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../secciones/menu.html">Menu</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../secciones/eventos.html">Eventos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../secciones/contacto.html">Contacto</a>
-                        </li>
-
-                    </ul>
-                </div>
-            </div>
-        </nav>
         <!--iconos de navegacion-->
         <section class="d-flex">
             <div class="container d-flex justify-content-center">
                 <div class="d-none d-md-block">
                     <a href="https://twitter.com/iniciarsesion?lang=es" target="_blank"><img class="sectionNav__redes"
-                            src="../iconos/twitter_logo_icon_181645.png" alt="imagen twitter"></a>
+                            src="../iconos/TWITTER_icon-icons.com_65536 (1).png" alt="imagen twitter"></a>
                     <a href="https://es-la.facebook.com/IniciarSesion/" target="_blank"><img class="sectionNav__redes"
-                            src="../iconos/facebook_logo_icon_181652.png" alt="imagen facebook"></a>
+                            src="../iconos/FB_icon-icons.com_65534 (1).png" alt="imagen facebook"></a>
                     <a href="https://www.instagram.com/morenavirasoro/?hl=es" target="_blank"><img
-                            class="sectionNav__redes" src="../iconos/instagram_ig_logo_icon_181651.png"
+                            class="sectionNav__redes" src="../iconos/INSTAGRAM_icon-icons.com_65535 (1).png"
                             alt="imagen instagram"></a>
                     <a href="https://wa.me/3756548794?text=¡Estoy+interesado!" target="_blank"><img
-                            class="sectionNav__redes" src="../iconos/whatsapp_logo_icon_181644.png"
+                            class="sectionNav__redes" src="../iconos/whatsapp_icon-icons.com_65542 (1).png"
                             alt="imagen whatssapp"></a>
-                    <a href="#"><img class="sectionNav__redes" src="../iconos/email_mail_icon_181653.png"
+                    <a href="#"><img class="sectionNav__redes" src="../iconos/GMAIL_icon-icons.com_65540 (1).png"
                             alt="imagen casilla de email"></a>
 
                 </div>
             </div>
         </section>
+        <!--se repite en todas las secciones: menu de navegacion-->
+        <nav class="navbar navbar-expand-lg navbar-expand-md navbar-dark">
+            <div class="container-fluid item__nav">
+                <a class="navbar-brand tracking-in-contract" href="../index.html">
+                    <h1 class="sectionNav__logo">morena</h1>
+                </a>
+                <button class="navbar-toggler" type="butto" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav align-items-end tracking-in-contract ">
+                        <li class="sectionNav__item">
+                            <a class="nav-link active sectionNav__item--seccion" aria-current="page"
+                                href="../secciones/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="sectionNav__item">
+                            <a class="nav-link sectionNav__item--seccion" aria-current="page"
+                                href="../secciones/menu.html">Menu</a>
+                        </li>
+                        <li class="sectionNav__item">
+                            <a class="nav-link  sectionNav__item--seccion" aria-current="page"
+                                href="../secciones/eventos.html">Eventos</a>
+                        </li>
+                        <li class="sectionNav__item">
+                            <a class="nav-link sectionNav__item--seccion" aria-current="page"
+                                href="../secciones/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
     <main>
         <!--seccion principal: portada-->
-        <section class="main__padre">
-            <h2 class="tracking-in-expand-fwd">Nosotros</h2>
-            <div class="nosotros__contenedor">
-                <img class="nosotros__img" src="../imgPrincipal/nosotros portada.jpg" />
+        <section>
+
+            <div class="nosotros">
+                <div class="nosotros__img"></div>
                 <div class="nosotros__tex">
-                    <h2 data-aos="zoom-out"><strong>Nuestro Equipo</strong></h2>
+                    <h2 class="nosotros__tex--titulo" data-aos="zoom-out"><strong>Nosotros</strong></h2>
                 </div>
             </div>
             <!--breve presentacion-->
-            <div class="container nosotros__presentacion">
+            <div class="container presentacion">
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2">
-                    <div class="col nosotros_parrafo">
-                        <p class="nosotros_parrafo">En un rinconcito de esta tierra colorada, al nordeste de la
+                    <div class="col presentacion_parrafo">
+                        <p class="presentacion_parrafo">En un rinconcito de esta tierra colorada, al nordeste de la
                             Provincia de Corrientes,
                             nace esta empresa familiar.
                             Nuestro objetivo es brindar siempre felicidad a esos momentos compartidos, en familia o con
                             amigos.<br>
-                            Te podemos contar muchas cosas, pero creemos que la mejor forma de presentranos es a traves
+                            Te podemos contar muchas cosas, pero creemos que la mejor forma de presentarnos es a traves
                             de
                             tu experiencia.<br>
                             Te invitamos a visitarnos y a crear instantes junto a nosotros...</p>
@@ -99,12 +101,13 @@
                         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
                             aria-labelledby="offcanvasRightLabel">
                             <div class="offcanvas-header">
-                                <h5 class="tit" id="offcanvasRightLabel">Un poquito mas de Nosotros</h5>
+                                <h5 class="offcanvas-header__tit" id="offcanvasRightLabel">Un poquito más de nosotros
+                                </h5>
                                 <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
                                     aria-label="Close"></button>
                             </div>
                             <div class="offcanvas-body">
-                                <p class="body__texto">
+                                <p class="offcanvas-body--texto">
                                     Contamos con un equipo de trabajo especializado en cada una de sus areas.
                                     Un equipo que mantiene siempre vigente todos los requisitos de manipulacion de
                                     alimentos y
@@ -114,7 +117,7 @@
                                     todos y cada uno de nuestros clientes...
                                 </p>
                                 <div>
-                                    <img class="img__off" src="../imgPrincipal/offnosotros.jpg" alt="">
+                                    <img class="offcanvas-body--off" src="../imgPrincipal/offnosotros.jpg" alt="">
                                 </div>
                             </div>
                         </div>
@@ -134,25 +137,25 @@
                             <div class="carousel-inner">
                                 <div class="carousel-item active" data-bs-interval="10000">
                                     <img src="../imgPrincipal/cocina (1).jpg" class="d-block w-100" alt="cocina">
-                                    <div class="carousel-caption d-none d-md-block presentacion__fondo">
-                                        <h5 class="presentacion__item">Cocina</h5>
-                                        <p class="presentacion__p">Rinconcito donde surge la magia de los sabores</p>
+                                    <div class="carousel-caption d-none d-md-block fondo">
+                                        <h5 class="fondo__item">Cocina</h5>
+                                        <p class="fondo__p">Rinconcito donde surge la magia de los sabores</p>
                                     </div>
                                 </div>
                                 <div class="carousel-item" data-bs-interval="2000">
                                     <img src="../imgPrincipal/atencion (1).jpg" class="d-block w-100"
                                         alt="platos de comida">
-                                    <div class="carousel-caption d-none d-md-block presentacion__fondo">
-                                        <h5 class="presentacion__item">Atencion al Cliente</h5>
-                                        <p class="presentacion__p">Lo visible, la predisposición y la buena onda</p>
+                                    <div class="carousel-caption d-none d-md-block fondo">
+                                        <h5 class="fondo__item">Atencion al Cliente</h5>
+                                        <p class="fondo__p">Lo visible, la predisposición y la buena onda</p>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
                                     <img src="../imgPrincipal/administracion.jpg" class="d-block w-100"
                                         alt="equipo de trabajo planeamiento">
-                                    <div class="carousel-caption d-none d-md-block presentacion__fondo">
-                                        <h5 class="presentacion__item">Adminitración</h5>
-                                        <p class="presentacion__p">El antes y despues de cada jornada</p>
+                                    <div class="carousel-caption d-none d-md-block fondo">
+                                        <h5 class="fondo__item">Adminitración</h5>
+                                        <p class="fondo__p">El antes y despues de cada jornada</p>
                                     </div>
                                 </div>
                             </div>
@@ -172,33 +175,34 @@
             </div>
         </section>
     </main>
-    <footer class="footer__padre">
+    <footer class="footer">
         <!--se repite en todas las secciones-->
-
         <div class="footer__icono">
             <p>Seguinos</p>
-            <a href="https://www.instagram.com/morenavirasoro/?hl=es" target="_blank">
-                <img class="footer__img" src="../iconos/instagram_ig_logo_icon_181651.png"
+
+            <a class="footer__icono--a" href="https://www.instagram.com/morenavirasoro/?hl=es" target="_blank">
+                <img class="footer__img" src="../iconos/INSTAGRAM_icon-icons.com_65535 (1).png"
                     class="card-img-top ubicacion" alt="icono instagram">
             </a>
-            <a href="https://es-la.facebook.com/IniciarSesion/" target="_blank">
-                <img class="footer__img" src="../iconos/facebook_logo_icon_181652.png" alt="icono facebook">
+            <a class="footer__icono--a" href="https://es-la.facebook.com/IniciarSesion/" target="_blank">
+                <img class="footer__img" src="../iconos/FB_icon-icons.com_65534 (1).png" alt="icono facebook">
             </a>
 
-            <a href="https://twitter.com/iniciarsesion?lang=es" target="_blank">
-                <img class="footer__img" src="../iconos/twitter_logo_icon_181645.png" alt="icono twitter">
+            <a class="footer__icono--a" href="https://twitter.com/iniciarsesion?lang=es" target="_blank">
+                <img class="footer__img" src="../iconos/TWITTER_icon-icons.com_65536 (1).png" alt="icono twitter">
             </a>
-            <a href="https://wa.me/3756548794?text=¡Estoy+interesado!" target="_blank">
-                <img class="footer__img" src="../iconos/whatsapp_logo_icon_181644.png" alt="iconos whatsapp">
+            <a class="footer__icono--a" href="https://wa.me/3756548794?text=¡Estoy+interesado!" target="_blank">
+                <img class="footer__img" src="../iconos/whatsapp_icon-icons.com_65542 (1).png" alt="icono whatsapp">
             </a>
-            <a href="#">
-                <img class="footer__img" src="../iconos/email_mail_icon_181653.png" alt="icono casilla de email">
+            <a class="footer__icono--a" href="#">
+                <img class="footer__img" src="../iconos/GMAIL_icon-icons.com_65540 (1).png"
+                    alt="icono casilla de email">
             </a>
 
-            <div class="footer__iconoF">
+            <div class="footer__icono">
                 <p>Encontranos en Av.Lavalle 2371</p>
-                <a href="https://goo.gl/maps/eQSSYjprBrCxqYx47" target="_blank">
-                    <img class="footer__img" src="../iconos/iconoNosotros.png" alt="icono ubicación">
+                <a class="footer__icono--a" href="https://goo.gl/maps/eQSSYjprBrCxqYx47" target="_blank">
+                    <img class="" src="../iconos/maps_20758.png" alt="icono ubicación">
                 </a>
             </div>
             <div class="footer__address">

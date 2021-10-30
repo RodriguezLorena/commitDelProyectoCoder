@@ -2,14 +2,17 @@
 @import "./media";
 
 
-.main__padre {
-    background-color: $fondo;
+.main {
+    background-color: white;
+    
 
-    h2 {
-        color: $color;
+
+    &__subtitulo {
+        color: rgb(243, 97, 12);;
         font-size: 2rem;
         font-family: 'Open Sans', sans-serif;
         text-align: center;
+        padding-top: 1rem;
 
 
 
@@ -20,7 +23,7 @@
 
     }
 
-    .main__contenedor {
+    &__contenedor {
         position: relative;
         display: flex;
         text-align: center;
@@ -28,27 +31,18 @@
 
 
 
-        .main__img {
+        &--img {
             width: 100%;
             height: 400px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
             object-fit: cover;
-
+            background-image: linear-gradient(rgba(12, 12, 12, 0.6), rgba(12, 12, 12, 0.6)), url(../imgPrincipal/principalIindex2.jpg);
+            
 
         }
-
-        .main__tex h2 {
-            position: absolute;
-            top: 100px;
-            left: 2rem;
-            right: 2rem;
-            justify-content: center;
-            color: $fuente;
-            ;
-            border-radius: 15px;
-            font-size: 4rem;
-
-
-
 
             @include movil {
                 margin-top: 0%;
@@ -63,57 +57,63 @@
 
     }
 
+    /*clases de bootstrap*/
+    .card-group{
+        padding: 1rem;
+        
+       .card{
+        margin:  1rem;
+     
+       
+       .card-body{
+           background-color:rgb(243, 97, 12) ;
+           .card-title{
+               color: white;
+               text-align: center;
+           }
+       }
+    }
+ }
 
 
-    .main-redirec {
+
+    .redirec {
         font-size: 2rem;
         padding-top: 1rem;
-    }
+        color: rgb(243, 97, 12);
+        text-align: center;
+    
 
-    .main__redirecM {
+    &__maps {
         width: 100%;
         height: 400px;
         align-items: center;
         object-fit: contain;
         border-radius: 15px;
-        box-shadow: $shadow;
+        box-shadow: 0 4px 8px rgb(243, 97, 12) ;
 
 
     }
+ }
 
 
+    // .main__imagen {
+    //     width: 100%;
+    //     height: 400px;
+    //     object-fit: cover;
+    //     border-radius: 5px;
+    //     margin-bottom: 1rem;
+    //     box-shadow: 0 5px 5px cornsilk;
 
 
-    p {
-        font-family: 'Open Sans', sans-serif;
-        color: $color;
-        text-align: center;
-        font-size: 1.2rem;
-        padding: 0 1rem;
-
-        @include movil {
-            font-size: 1rem;
-        }
-    }
+    // }
 
 
+    // h3 {
+    //     color: $color;
+    //     font-size: 1.5rem;
+    //     justify-content: center;
+    //     text-align: center;
+    // }
 
-    .main__imagen {
-        width: 100%;
-        height: 400px;
-        object-fit: cover;
-        border-radius: 5px;
-        margin-bottom: 1rem;
-        box-shadow: 0 5px 5px cornsilk;
-
-
-    }
-
-
-    h3 {
-        color: $color;
-        font-size: 1.5rem;
-        justify-content: center;
-        text-align: center;
-    }
-}
+  

@@ -21,55 +21,61 @@
 
 <body>
   <header class="sectionNav">
-    <!--se repite en todas las secciones-->
-    <nav class="navbar navbar-expand-lg navbar-expand-md navbar-dark bg-dark">
-      <div class="container-fluid main__padre">
-        <a class="navbar-brand tracking-in-contract" href="../index.html">
-          <h1>morena</h1>
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul class="navbar-nav align-items-end tracking-in-contract">
-            <li class="nav-item">
-              <a class="nav-link" href="../secciones/nosotros.html">Nosotros</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" active aria-current="page" href="../secciones/menu.html">Menu</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../secciones/eventos.html">Eventos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../secciones/contacto.html">Contacto</a>
-            </li>
-
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <!--iconos de navegacion-->
     <section class="d-flex">
-      <div class="container d-flex justify-content-center">
-        <div class="d-none d-md-block">
-          <a href="https://twitter.com/iniciarsesion?lang=es" target="_blank"><img class="sectionNav__redes"
-              src="../iconos/twitter_logo_icon_181645.png" alt="imagen twitter"></a>
-          <a href="https://es-la.facebook.com/IniciarSesion/" target="_blank"><img class="sectionNav__redes"
-              src="../iconos/facebook_logo_icon_181652.png" alt="imagen facebook"></a>
-          <a href="https://www.instagram.com/morenavirasoro/?hl=es" target="_blank"><img class="sectionNav__redes"
-              src="../iconos/instagram_ig_logo_icon_181651.png" alt="imagen instagram"></a>
-          <a href="https://wa.me/3756548794?text=¡Estoy+interesado!" target="_blank"><img class="sectionNav__redes"
-              src="../iconos/whatsapp_logo_icon_181644.png" alt="imagen whatssapp"></a>
-          <a href="#"><img class="sectionNav__redes" src="../iconos/email_mail_icon_181653.png"
-              alt="imagen casilla de email"></a>
+        <div class="container d-flex justify-content-center">
+            <div class="d-none d-md-block">
+                <a href="https://twitter.com/iniciarsesion?lang=es" target="_blank"><img class="sectionNav__redes"
+                        src="../iconos/TWITTER_icon-icons.com_65536 (1).png" alt="imagen twitter"></a>
+                <a href="https://es-la.facebook.com/IniciarSesion/" target="_blank"><img class="sectionNav__redes"
+                        src="../iconos/FB_icon-icons.com_65534 (1).png" alt="imagen facebook"></a>
+                <a href="https://www.instagram.com/morenavirasoro/?hl=es" target="_blank"><img
+                        class="sectionNav__redes" src="../iconos/INSTAGRAM_icon-icons.com_65535 (1).png"
+                        alt="imagen instagram"></a>
+                <a href="https://wa.me/3756548794?text=¡Estoy+interesado!" target="_blank"><img
+                        class="sectionNav__redes" src="../iconos/whatsapp_icon-icons.com_65542 (1).png"
+                        alt="imagen whatssapp"></a>
+                <a href="#"><img class="sectionNav__redes" src="../iconos/GMAIL_icon-icons.com_65540 (1).png"
+                        alt="imagen casilla de email"></a>
 
+            </div>
         </div>
-      </div>
     </section>
-  </header>
+    <!--se repite en todas las secciones: menu de navegacion-->
+    <nav class="navbar navbar-expand-lg navbar-expand-md navbar-dark">
+        <div class="container-fluid item__nav">
+            <a class="navbar-brand tracking-in-contract" href="../index.html">
+                <h1 class="sectionNav__logo">morena</h1>
+            </a>
+            <button class="navbar-toggler" type="butto" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav align-items-end tracking-in-contract ">
+                    <li class="sectionNav__item">
+                        <a class="nav-link sectionNav__item--seccion" aria-current="page"
+                            href="../secciones/nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="sectionNav__item">
+                        <a class="nav-link active sectionNav__item--seccion" aria-current="page"
+                            href="../secciones/menu.html">Menu</a>
+                    </li>
+                    <li class="sectionNav__item">
+                        <a class="nav-link  sectionNav__item--seccion" aria-current="page"
+                            href="../secciones/eventos.html">Eventos</a>
+                    </li>
+                    <li class="sectionNav__item">
+                        <a class="nav-link sectionNav__item--seccion" aria-current="page"
+                            href="../secciones/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
   <main>
-    <section class="main__padre">
+    <section class="">
       <!--seccion principal: menu-->
       <h2 class="tracking-in-expand-fwd">Menu</h2>
       <!-- modal -->
@@ -348,44 +354,43 @@
       </section>
   </main>
 
-  <footer class="footer__padre">
+  <footer class="footer">
     <!--se repite en todas las secciones-->
-
     <div class="footer__icono">
-      <p>Seguinos</p>
+        <p>Seguinos</p>
 
-      <a href="https://www.instagram.com/morenavirasoro/?hl=es" target="_blank">
-        <img class="footer__img" src="../iconos/instagram_ig_logo_icon_181651.png" class="card-img-top ubicacion"
-          alt="icono instagram">
-      </a>
-      <a href="https://es-la.facebook.com/IniciarSesion/" target="_blank">
-        <img class="footer__img" src="../iconos/facebook_logo_icon_181652.png" alt="icono facebook">
-      </a>
-
-      <a href="https://twitter.com/iniciarsesion?lang=es" target="_blank">
-        <img class="footer__img" src="../iconos/twitter_logo_icon_181645.png" alt="icono twitter">
-      </a>
-      <a href="https://wa.me/3756548794?text=¡Estoy+interesado!" target="_blank">
-        <img class="footer__img" src="../iconos/whatsapp_logo_icon_181644.png" alt="iconos whatsapp">
-      </a>
-      <a href="#">
-        <img class="footer__img" src="../iconos/email_mail_icon_181653.png" alt="icono casilla de email">
-      </a>
-
-      <div class="footer__icono">
-        <p>Encontranos en Av.Lavalle 2371</p>
-        <a href="https://goo.gl/maps/eQSSYjprBrCxqYx47" target="_blank">
-          <img class="footer__img" src="../iconos/iconoNosotros.png" alt="icono ubicación">
+        <a class="footer__icono--a" href="https://www.instagram.com/morenavirasoro/?hl=es" target="_blank">
+            <img class="footer__img" src="../iconos/INSTAGRAM_icon-icons.com_65535 (1).png"
+                class="card-img-top ubicacion" alt="icono instagram">
         </a>
-      </div>
-      <div class="footer__address">
-        <address>
-          Todos los derechos reservados-lorenarodriguezdev@gmail.com
-        </address>
-      </div>
+        <a class="footer__icono--a" href="https://es-la.facebook.com/IniciarSesion/" target="_blank">
+            <img class="footer__img" src="../iconos/FB_icon-icons.com_65534 (1).png" alt="icono facebook">
+        </a>
 
-  </footer>
+        <a class="footer__icono--a" href="https://twitter.com/iniciarsesion?lang=es" target="_blank">
+            <img class="footer__img" src="../iconos/TWITTER_icon-icons.com_65536 (1).png" alt="icono twitter">
+        </a>
+        <a class="footer__icono--a" href="https://wa.me/3756548794?text=¡Estoy+interesado!" target="_blank">
+            <img class="footer__img" src="../iconos/whatsapp_icon-icons.com_65542 (1).png" alt="icono whatsapp">
+        </a>
+        <a class="footer__icono--a" href="#">
+            <img class="footer__img" src="../iconos/GMAIL_icon-icons.com_65540 (1).png"
+                alt="icono casilla de email">
+        </a>
 
+        <div class="footer__icono">
+            <p>Encontranos en Av.Lavalle 2371</p>
+            <a class="footer__icono--a" href="https://goo.gl/maps/eQSSYjprBrCxqYx47" target="_blank">
+                <img class="" src="../iconos/maps_20758.png" alt="icono ubicación">
+            </a>
+        </div>
+        <div class="footer__address">
+            <address>
+                Todos los derechos reservados-lorenarodriguezdev@gmail.com
+            </address>
+        </div>
+
+</footer>
   <!--AOS-->
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>

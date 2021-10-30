@@ -15,111 +15,138 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/main.css" />
 </head>
 
 <body>
     <header class="sectionNav">
-        <!--se repite en todas las secciones: menu de navegacion-->
-        <nav class="navbar navbar-expand-lg navbar-expand-md navbar-dark bg-dark">
-            <div class="container-fluid main__padre">
-                <a class="navbar-brand tracking-in-contract" href="./index.html">
-                    <h1>morena</h1>
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                    <ul class="navbar-nav align-items-end tracking-in-contract ">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./secciones/nosotros.html">Nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./secciones/menu.html">Menu</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./secciones/eventos.html">Eventos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./secciones/contacto.html">Contacto</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
         <!--iconos de navegacion-->
         <section class="d-flex">
             <div class="container d-flex justify-content-center">
                 <div class="d-none d-md-block">
                     <a href="https://twitter.com/iniciarsesion?lang=es" target="_blank"><img class="sectionNav__redes"
-                            src="./iconos/twitter_logo_icon_181645.png" alt="imagen twitter"></a>
+                            src="./iconos/TWITTER_icon-icons.com_65536 (1).png" alt="imagen twitter"></a>
                     <a href="https://es-la.facebook.com/IniciarSesion/" target="_blank"><img class="sectionNav__redes"
-                            src="./iconos/facebook_logo_icon_181652.png" alt="imagen facebook"></a>
-                    <a href="https://www.instagram.com/morenavirasoro/?hl=es" target="_blank"><img
-                            class="sectionNav__redes" src="./iconos/instagram_ig_logo_icon_181651.png"
-                            alt="imagen instagram"></a>
+                            src="./iconos/FB_icon-icons.com_65534 (1).png" alt="imagen facebook"></a>
+                    <a href="https://www.instagram.com/morenavirasoro/?hl=es" target="_blank">
+                        <i class="fab fa-instagram fa-2x sectionNav__redes"></i>     
+                    </a>
                     <a href="https://wa.me/3756548794?text=¡Estoy+interesado!" target="_blank"><img
-                            class="sectionNav__redes" src="./iconos/whatsapp_logo_icon_181644.png"
+                            class="sectionNav__redes" src="./iconos/whatsapp_icon-icons.com_65542 (1).png"
                             alt="imagen whatssapp"></a>
-                    <a href="#"><img class="sectionNav__redes" src="./iconos/email_mail_icon_181653.png"
+                    <a href="#"><img class="sectionNav__redes" src="./iconos/GMAIL_icon-icons.com_65540 (1).png"
                             alt="imagen casilla de email"></a>
 
                 </div>
             </div>
         </section>
+        <!--se repite en todas las secciones: menu de navegacion-->
+        <nav class="navbar navbar-expand-lg navbar-expand-md navbar-dark">
+            <div class="container-fluid item__nav">
+                <a class="navbar-brand tracking-in-contract" href="./index.html">
+                    <h1 class="sectionNav__logo">morena</h1>
+                </a>
+                <button class="navbar-toggler" type="butto" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav align-items-end tracking-in-contract ">
+                        <li class="sectionNav__item">
+                            <a class="nav-link active sectionNav__item--seccion" aria-current="page"
+                                href="./secciones/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="sectionNav__item">
+                            <a class="nav-link active sectionNav__item--seccion" aria-current="page"
+                                href="./secciones/menu.html">Menu</a>
+                        </li>
+                        <li class="sectionNav__item">
+                            <a class="nav-link active sectionNav__item--seccion" aria-current="page"
+                                href="./secciones/eventos.html">Eventos</a>
+                        </li>
+                        <li class="sectionNav__item">
+                            <a class="nav-link active sectionNav__item--seccion" aria-current="page"
+                                href="./secciones/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
     </header>
     <main>
         <!--seccion principal: home-->
-        <section class="main__padre">
+        <section class="main">
             <div class="main__contenedor">
-                <img class="main__img" src="./imgPrincipal/principalIindex2.jpg" alt="espacio de recepcion" />
-                <div class="main__tex">
-                    <h2 class="" data-aos="zoom-out"> <strong>Morena Resto Bar</strong></h2>
-                </div>
+                <div class="main__contenedor--img"></div>
             </div>
+            <section>
+                <h2 class="main__subtitulo">Un Lugar, Tu Lugar</h2>
+                <div class="card-group">
+                    <div class="card">
+                        <img src="./imgPrincipal/eventosDos.jpg" class="card-img-top" alt="personas brindando">
+                        <div class="card-body">
+                            <h3 class="card-title">Para Compatir</h3>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./imgPrincipal/cocina (1).jpg" class="card-img-top" alt="platos de comidas">
+                        <div class="card-body">
+                            <h5 class="card-title">Para Saborear</h5>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./imgPrincipal/eventosCuatro.jpg" class="card-img-top" alt="variedad de tragos">
+                        <div class="card-body">
+                            <h5 class="card-title">Para Festejar</h5>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <div class="container">
                 <div class="row pb-3">
                     <div class="colum-6">
                         <div class="colum-6">
-                            <p class="main-redirec">Visitanos</p>
-                            <a href="#"><iframe class="main__redirecM" data-aos="zoom-in"
-                                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1480.433958425957!2d-56.02228984038439!3d-28.052423254217413!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9456680719a6a7bf%3A0x8af067b373ebd4a!2sMorena%20Resto%20Bar!5e0!3m2!1ses-419!2sar!4v1635120956717!5m2!1ses-419!2sar"
-                                    width="600" height="450" style="border:0;" allowfullscreen=""
-                                    loading="lazy"></iframe></a>
+                            <p class="redirec">Visitanos</p>
+                            <a href="#"><iframe class="redirec__maps" data-aos="zoom-in" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1480.
+                                    433958425957!2d-56.02228984038439!3d-28.052423254217413!3m2!1i1024!2i768!4f13.
+                                    1!3m3!1m2!1s0x9456680719a6a7bf%3A0x8af067b373ebd4a!2sMorena%20Resto%20Bar!5e0!3m2!1ses
+                                    -419!2sar!4v1635120956717!5m2!1ses-419!2sar" width="600" height="450"
+                                    style="border:0;" allowfullscreen="" loading="lazy"></iframe></a>
                         </div>
                     </div>
                 </div>
         </section>
     </main>
 
-    <footer class="footer__padre">
+    <footer class="footer">
         <!--se repite en todas las secciones-->
         <div class="footer__icono">
             <p>Seguinos</p>
 
-            <a href="https://www.instagram.com/morenavirasoro/?hl=es" target="_blank">
-                <img class="footer__img" src="./iconos/instagram_ig_logo_icon_181651.png" class="card-img-top ubicacion"
-                    alt="icono instagram">
+            <a class="footer__icono--a" href="https://www.instagram.com/morenavirasoro/?hl=es" target="_blank">
+                <img class="footer__img" src="./iconos/INSTAGRAM_icon-icons.com_65535 (1).png"
+                    class="card-img-top ubicacion" alt="icono instagram">
             </a>
-            <a href="https://es-la.facebook.com/IniciarSesion/" target="_blank">
-                <img class="footer__img" src="./iconos/facebook_logo_icon_181652.png" alt="icono facebook">
+            <a class="footer__icono--a" href="https://es-la.facebook.com/IniciarSesion/" target="_blank">
+                <img class="footer__img" src="./iconos/FB_icon-icons.com_65534 (1).png" alt="icono facebook">
             </a>
 
-            <a href="https://twitter.com/iniciarsesion?lang=es" target="_blank">
-                <img class="footer__img" src="./iconos/twitter_logo_icon_181645.png" alt="icono twitter">
+            <a class="footer__icono--a" href="https://twitter.com/iniciarsesion?lang=es" target="_blank">
+                <img class="footer__img" src="./iconos/TWITTER_icon-icons.com_65536 (1).png" alt="icono twitter">
             </a>
-            <a href="https://wa.me/3756548794?text=¡Estoy+interesado!" target="_blank">
-                <img class="footer__img" src="./iconos/whatsapp_logo_icon_181644.png" alt="icono whatsapp">
+            <a class="footer__icono--a" href="https://wa.me/3756548794?text=¡Estoy+interesado!" target="_blank">
+                <img class="footer__img" src="./iconos/whatsapp_icon-icons.com_65542 (1).png" alt="icono whatsapp">
             </a>
-            <a href="#">
-                <img class="footer__img" src="./iconos/email_mail_icon_181653.png" alt="icono casilla de email">
+            <a class="footer__icono--a" href="#">
+                <img class="footer__img" src="./iconos/GMAIL_icon-icons.com_65540 (1).png" alt="icono casilla de email">
             </a>
 
             <div class="footer__icono">
                 <p>Encontranos en Av.Lavalle 2371</p>
-                <a href="https://goo.gl/maps/eQSSYjprBrCxqYx47" target="_blank">
-                    <img class="footer__img" src="./iconos/iconoNosotros.png" alt="icono ubicación">
+                <a class="footer__icono--a" href="https://goo.gl/maps/eQSSYjprBrCxqYx47" target="_blank">
+                    <img class="" src="./iconos/maps_20758.png" alt="icono ubicación">
                 </a>
             </div>
             <div class="footer__address">
@@ -134,7 +161,7 @@
     <script>
         AOS.init({
             once: true,
-            duration: 1500,
+            duration: 500,
         });
     </script>
 
