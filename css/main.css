@@ -1004,6 +1004,12 @@ bootstrap*/
   text-align: end;
   margin-right: 0.5rem;
   background-color: #f3610c;
+  padding-bottom: 1rem;
+  /*estilizando un elemento de html*/
+}
+
+.footer__address address {
+  margin: 0;
 }
 
 @media screen and (max-width: 768px) {

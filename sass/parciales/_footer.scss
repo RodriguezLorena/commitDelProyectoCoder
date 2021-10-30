@@ -39,9 +39,13 @@
          color: white;
          font-size: 0.8rem;
          text-align: end;
-         
          margin-right: 0.5rem;
          background-color: rgb(243, 97, 12);
+         padding-bottom: 1rem;
+         address{
+          margin: 0;
+         } /*estilizando un elemento de html*/
+
          
 
          @include tablet {
