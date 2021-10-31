@@ -16,9 +16,9 @@
 }
 
 .main__subtitulo {
-  color: #f3610c;
+  color: #252525;
   font-size: 2rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
   text-align: center;
   padding-top: 1rem;
 }
@@ -76,13 +76,16 @@
 .card-group .card .card-body .card-title {
   color: white;
   text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5rem;
 }
 
 .redirec {
+  color: #252525;
   font-size: 2rem;
-  padding-top: 1rem;
-  color: #f3610c;
+  font-family: 'Lato', sans-serif;
   text-align: center;
+  padding-top: 1rem;
 }
 
 .redirec__maps {
@@ -94,8 +97,9 @@
   -o-object-fit: contain;
      object-fit: contain;
   border-radius: 15px;
-  -webkit-box-shadow: 0 4px 8px #f3610c;
-          box-shadow: 0 4px 8px #f3610c;
+  background: #ffffff;
+  -webkit-box-shadow: -7px 7px 14px #c7c6c6,  7px -7px 14px #ffffff;
+          box-shadow: -7px 7px 14px #c7c6c6,  7px -7px 14px #ffffff;
 }
 
 /*color de fuente*/
@@ -115,9 +119,9 @@
 }
 
 .main__subtitulo {
-  color: #f3610c;
+  color: #252525;
   font-size: 2rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
   text-align: center;
   padding-top: 1rem;
 }
@@ -175,13 +179,16 @@
 .card-group .card .card-body .card-title {
   color: white;
   text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5rem;
 }
 
 .redirec {
+  color: #252525;
   font-size: 2rem;
-  padding-top: 1rem;
-  color: #f3610c;
+  font-family: 'Lato', sans-serif;
   text-align: center;
+  padding-top: 1rem;
 }
 
 .redirec__maps {
@@ -193,8 +200,9 @@
   -o-object-fit: contain;
      object-fit: contain;
   border-radius: 15px;
-  -webkit-box-shadow: 0 4px 8px #f3610c;
-          box-shadow: 0 4px 8px #f3610c;
+  background: #ffffff;
+  -webkit-box-shadow: -7px 7px 14px #c7c6c6,  7px -7px 14px #ffffff;
+          box-shadow: -7px 7px 14px #c7c6c6,  7px -7px 14px #ffffff;
 }
 
 .nosotros {
@@ -381,9 +389,9 @@
 }
 
 .main__subtitulo {
-  color: #f3610c;
+  color: #252525;
   font-size: 2rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
   text-align: center;
   padding-top: 1rem;
 }
@@ -441,13 +449,16 @@
 .card-group .card .card-body .card-title {
   color: white;
   text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5rem;
 }
 
 .redirec {
+  color: #252525;
   font-size: 2rem;
-  padding-top: 1rem;
-  color: #f3610c;
+  font-family: 'Lato', sans-serif;
   text-align: center;
+  padding-top: 1rem;
 }
 
 .redirec__maps {
@@ -459,104 +470,110 @@
   -o-object-fit: contain;
      object-fit: contain;
   border-radius: 15px;
-  -webkit-box-shadow: 0 4px 8px #f3610c;
-          box-shadow: 0 4px 8px #f3610c;
+  background: #ffffff;
+  -webkit-box-shadow: -7px 7px 14px #c7c6c6,  7px -7px 14px #ffffff;
+          box-shadow: -7px 7px 14px #c7c6c6,  7px -7px 14px #ffffff;
 }
 
 /*los estilos de la seccion carta los traigo con import y otros los manipule directamente desde
 bootstrap*/
-.carta {
+.carta__titulo {
+  text-align: center;
+}
+
+.carta__contenedor {
   padding-left: 2rem;
   padding-right: 2rem;
 }
 
-.carta .btn-secundary {
-  -webkit-box-shadow: 0 4px 8px rgba(189, 186, 186, 0.712);
-          box-shadow: 0 4px 8px rgba(189, 186, 186, 0.712);
-  background-color: #1e1e22;
-  border-color: #1e1e22;
+.carta__contenedor .btn-secundary {
+  -webkit-box-shadow: 0 4px 8px #f3610c;
+          box-shadow: 0 4px 8px #f3610c;
+  background-color: white;
+  margin: 0%;
+  border: 0ch;
 }
 
-.carta .btn-secundary:hover {
-  background-color: #6c6d6e;
-  border-color: #1e1e22;
+.carta__contenedor .btn-secundary:hover {
+  background-color: #f3610c;
 }
 
-.carta .btn-secundary:hover h3 {
-  color: black;
+.btn-secundary:hover .carta__contenedor__subtitulo {
+  color: white;
 }
 
-.carta .btn {
+.carta__contenedor .btn {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
 
-.carta .modal-header {
-  background-color: #1e1e22;
+.carta__contenedor .modal-header {
+  background-color: #f3610c;
   color: white;
 }
 
-.carta .modal-header #pizza {
+.carta__contenedor .modal-header #pizza {
   font-size: 2rem;
   letter-spacing: 10px;
 }
 
-.carta .modal-header #hamburguesaslabel {
+.carta__contenedor .modal-header #hamburguesaslabel {
   font-size: 1rem;
   letter-spacing: 5px;
 }
 
-.carta .modal-header #sandwichlabel {
+.carta__contenedor .modal-header #sandwichlabel {
   font-size: 2rem;
   letter-spacing: 5px;
 }
 
-.carta .modal-header #alPlatolabel {
+.carta__contenedor .modal-header #alPlatolabel {
   font-size: 2rem;
   letter-spacing: 5px;
 }
 
-.carta .modal-header #picadalabel {
+.carta__contenedor .modal-header #picadalabel {
   font-size: 2rem;
   letter-spacing: 10px;
 }
 
-.carta .modal-header #tostadolabel {
+.carta__contenedor .modal-header #tostadolabel {
   font-size: 2rem;
   letter-spacing: 5px;
 }
 
-.carta .carritoModal {
+.carta__contenedor .carritoModal {
   text-align: right;
+  color: white;
 }
 
-.carta .modal-body {
+.carta__contenedor .modal-body {
   background-image: url(../imagenesMenu/sandwich.jpg);
 }
 
-.card-text {
+.carta .card-text {
   color: white;
   font-size: 1rem;
   background-color: rgba(0, 0, 0, 0.274);
 }
 
-.card-precio {
+.carta .card-precio {
   color: white;
   font-size: 1rem;
   background-color: rgba(0, 0, 0, 0.274);
   text-align: right;
 }
 
-.modal-footer {
-  background-color: #1e1e22;
+.carta .modal-footer {
+  background-color: #f3610c;
 }
 
-.modal-footer .spam {
+.carta .modal-footer .spam {
   color: white;
 }
 
-.modal-footer .wsp {
-  width: 40px;
+.carta .modal-footer .wsp {
+  color: white;
 }
 
 /*color de fuente*/
@@ -576,9 +593,9 @@ bootstrap*/
 }
 
 .main__subtitulo {
-  color: #f3610c;
+  color: #252525;
   font-size: 2rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
   text-align: center;
   padding-top: 1rem;
 }
@@ -636,13 +653,16 @@ bootstrap*/
 .card-group .card .card-body .card-title {
   color: white;
   text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5rem;
 }
 
 .redirec {
+  color: #252525;
   font-size: 2rem;
-  padding-top: 1rem;
-  color: #f3610c;
+  font-family: 'Lato', sans-serif;
   text-align: center;
+  padding-top: 1rem;
 }
 
 .redirec__maps {
@@ -654,11 +674,17 @@ bootstrap*/
   -o-object-fit: contain;
      object-fit: contain;
   border-radius: 15px;
-  -webkit-box-shadow: 0 4px 8px #f3610c;
-          box-shadow: 0 4px 8px #f3610c;
+  background: #ffffff;
+  -webkit-box-shadow: -7px 7px 14px #c7c6c6,  7px -7px 14px #ffffff;
+          box-shadow: -7px 7px 14px #c7c6c6,  7px -7px 14px #ffffff;
 }
 
-.eventos__contenedor {
+.evento__titulo {
+  text-align: center;
+  color: black;
+}
+
+.contenedor {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -667,17 +693,23 @@ bootstrap*/
   contain: content;
 }
 
-.eventos__contenedor .eventos__img {
+.contenedor__img {
   width: 100%;
   height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
   -o-object-fit: cover;
      object-fit: cover;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(12, 12, 12, 0.6)), to(rgba(12, 12, 12, 0.6))), url(../imgPrincipal/principalIindex2.jpg);
+  background-image: linear-gradient(rgba(12, 12, 12, 0.6), rgba(12, 12, 12, 0.6)), url(../imgPrincipal/principalIindex2.jpg);
 }
 
-.eventos__contenedor .eventos__tex {
+.contenedor__tex {
   position: absolute;
-  top: 20%;
-  margin-left: 28%;
+  top: 35%;
+  margin-left: 20%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -688,54 +720,53 @@ bootstrap*/
 }
 
 @media screen and (max-width: 320px) {
-  .eventos__contenedor .eventos__tex {
+  .contenedor__tex {
     top: 10%;
     margin-right: 10%;
   }
 }
 
 @media screen and (max-width: 920px) {
-  .eventos__contenedor .eventos__tex {
+  .contenedor__tex {
     margin-left: 10%;
   }
 }
 
-.eventos__contenedor .eventos__tex h2 {
-  font-size: 2rem;
-  color: black;
+.contenedor__tex--titulo {
   font-size: 3rem;
+  color: white;
+  letter-spacing: 0.5rem;
 }
 
 @media screen and (max-width: 320px) {
-  .eventos__contenedor .eventos__tex h2 {
+  .contenedor__tex--titulo {
     font-size: 2rem;
   }
 }
 
-.eventos {
-  color: white;
-  text-align: center;
-  font-size: 1.8rem;
-  padding-top: 2rem;
-}
-
-.eventos__card {
+.card {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  -webkit-box-shadow: 0 4px 8px rgba(189, 186, 186, 0.712);
-          box-shadow: 0 4px 8px rgba(189, 186, 186, 0.712);
-  background-color: #1e1e22;
+  border-radius: 15px;
+  background: #ffffff;
+  -webkit-box-shadow: -7px 7px 14px #c7c6c6,  7px -7px 14px #ffffff;
+          box-shadow: -7px 7px 14px #c7c6c6,  7px -7px 14px #ffffff;
+  background-color: white;
+  padding: 1rem;
 }
 
-.eventos__card .card-body .card-title {
-  color: white;
+.card-body .card-title {
+  color: #f3610c;
   text-align: center;
   font-size: 2rem;
+  font-family: 'Open Sans', sans-serif;
 }
 
-.eventos__card .card-body .card_texto {
+.card-body .card_texto {
   font-size: 1rem;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /*color de fuente*/
@@ -755,9 +786,9 @@ bootstrap*/
 }
 
 .main__subtitulo {
-  color: #f3610c;
+  color: #252525;
   font-size: 2rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
   text-align: center;
   padding-top: 1rem;
 }
@@ -815,13 +846,16 @@ bootstrap*/
 .card-group .card .card-body .card-title {
   color: white;
   text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5rem;
 }
 
 .redirec {
+  color: #252525;
   font-size: 2rem;
-  padding-top: 1rem;
-  color: #f3610c;
+  font-family: 'Lato', sans-serif;
   text-align: center;
+  padding-top: 1rem;
 }
 
 .redirec__maps {
@@ -833,8 +867,9 @@ bootstrap*/
   -o-object-fit: contain;
      object-fit: contain;
   border-radius: 15px;
-  -webkit-box-shadow: 0 4px 8px #f3610c;
-          box-shadow: 0 4px 8px #f3610c;
+  background: #ffffff;
+  -webkit-box-shadow: -7px 7px 14px #c7c6c6,  7px -7px 14px #ffffff;
+          box-shadow: -7px 7px 14px #c7c6c6,  7px -7px 14px #ffffff;
 }
 
 .redes {
@@ -979,15 +1014,21 @@ bootstrap*/
       -ms-flex-align: center;
           align-items: center;
   background-color: #f3610c;
-  padding-top: 1rem;
+  color: white;
 }
 
-.footer__icono--a {
+.footer__ancor {
   color: #f3610c;
 }
 
+.footer__redes {
+  color: white;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
 @media screen and (max-width: 320px) {
-  .footer__icono {
+  .footer__redes {
     font-size: 1rem;
   }
 }
@@ -1005,11 +1046,11 @@ bootstrap*/
   margin-right: 0.5rem;
   background-color: #f3610c;
   padding-bottom: 1rem;
-  /*estilizando un elemento de html*/
 }
 
 .footer__address address {
   margin: 0;
+  /*estilizando un elemento de html*/
 }
 
 @media screen and (max-width: 768px) {
@@ -1028,6 +1069,10 @@ bootstrap*/
   background-color: #f3610c;
 }
 
+.sectionNav__ancor {
+  color: #f3610c;
+}
+
 .sectionNav__item {
   background-color: #f3610c;
 }
@@ -1035,8 +1080,8 @@ bootstrap*/
 .sectionNav__item--seccion {
   font-size: 1.2rem;
   margin-right: 1rem;
-  color: white;
   padding: 0%;
+  color: black;
 }
 
 @media screen and (max-width: 320px) {
@@ -1045,11 +1090,18 @@ bootstrap*/
   }
 }
 
+@media screen and (max-width: 768px) {
+  .sectionNav__item--seccion {
+    padding-top: 1rem;
+  }
+}
+
 .sectionNav__logo {
   color: white;
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin-left: 2rem;
-  margin-bottom: 1rem;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
 }
 
 @media screen and (max-width: 320px) {

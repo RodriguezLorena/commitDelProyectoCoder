@@ -4,15 +4,22 @@
 
 /*los estilos de la seccion carta los traigo con import y otros los manipule directamente desde
 bootstrap*/
+.carta{
 
-.carta {
+&__titulo{
+    text-align: center;
+}
+
+&__contenedor {
     padding-left: 2rem;
     padding-right: 2rem;
+    
 
     .btn-secundary {
-        box-shadow: $shadow;
-        background-color: $fondo;
-        border-color: $fondo;
+        box-shadow: 0 4px 8px rgb(243, 97, 12);
+        background-color:white;
+        margin: 0%;
+        border: 0ch;
 
 
 
@@ -20,23 +27,24 @@ bootstrap*/
 
     .btn-secundary:hover {
 
-        background-color: #6c6d6e;
-        border-color: $fondo;
+        background-color: rgb(243, 97, 12);
+        
 
     }
 
-    .btn-secundary:hover h3 {
-        color: black;
+    .btn-secundary:hover &__subtitulo {
+        color:white;
 
     }
 
     .btn {
         transition: all 0.5s;
+        
     }
 
     .modal-header {
-        background-color: $fondo;
-        color: $color;
+        background-color: rgb(243, 97, 12);
+        color: white;
 
         #pizza {
             font-size: 2rem;
@@ -72,6 +80,8 @@ bootstrap*/
 
     .carritoModal {
         text-align: right;
+        color: white;
+        
 
 
     }
@@ -107,13 +117,14 @@ bootstrap*/
 }
 
 .modal-footer {
-    background-color: $fondo;
+    background-color: rgb(243, 97, 12);
 
     .spam {
         color: white;
     }
 
     .wsp {
-        width: 40px;
+    color: white;
     }
 }
+ }

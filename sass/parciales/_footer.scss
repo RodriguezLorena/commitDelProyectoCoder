@@ -4,8 +4,6 @@
      display: inline;
      width: 100%;
      color: white;
-     
-     
     
      @include movil {
         font-size: 1rem;
@@ -15,17 +13,24 @@
          font-size: $rem;
          align-items: center;
          background-color:rgb(243, 97, 12);
-         padding-top: 1rem;
+         color: white;
          
-         &--a{
-           color:rgb(243, 97, 12);
-         }
-
-         @include movil {
-             font-size: $rem;
-         }
         
-     }
+        }
+
+    &__ancor{
+        color:rgb(243, 97, 12);
+    }    
+    &__redes{
+            color:white;
+            margin-right: 1rem;
+            margin-bottom: 1rem;
+           
+              @include movil {
+                  font-size: $rem;
+              }  
+          } 
+       
 
      &__img {
          width: 30px;
@@ -43,8 +48,8 @@
          background-color: rgb(243, 97, 12);
          padding-bottom: 1rem;
          address{
-          margin: 0;
-         } /*estilizando un elemento de html*/
+          margin: 0;/*estilizando un elemento de html*/
+         } 
 
          
 
