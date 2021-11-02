@@ -3,42 +3,50 @@
 
 
 .sectionNav {
-  background-color: rgb(243, 97, 12);
+  background-color:$contraste;
 
   &__ancor {
-    color: rgb(243, 97, 12);
+    color: $contraste;
   }
 
   &__item {
-    background-color: rgb(243, 97, 12);
+    background-color: $contraste;
+
+
 
 
 
     &--seccion {
       font-size: 1.2rem;
-      margin-right: 1rem;
+      margin-right: $medida;
       padding: 0%;
-      color: black;
+      color:$fondo;
+      font-family: $lato;
       
-      
+
 
 
       @include movil {
-        padding-top: 1rem;
+        padding-top: $medida;
       }
 
       @include tablet {
-        padding-top: 1rem;
+        padding-top: $medida;
       }
+    }
+
+    &--seccion:hover {
+      color: $fuente;
     }
   }
 
 
+
   &__logo {
-    color: white;
+    color: $fondo;
     font-size: 2.5rem;
     margin-left: 2rem;
-    font-family: 'Open Sans', sans-serif;
+    font-family: $open;
     text-transform: uppercase;
 
     @include movil {
@@ -50,9 +58,9 @@
 
 
   &__redes {
-    color: white;
-    margin-top: 1rem;
-    margin-right: 1rem;
+    color: $fondo;
+    margin-top: $medida;
+    margin-right: $medida;
 
 
 

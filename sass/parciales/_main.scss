@@ -2,23 +2,24 @@
 @import "./media";
 
 
+
 .main {
-    background-color: white;
-    
+    background-color: $fondo;
+
 
 
     &__subtitulo {
         color: rgb(37, 37, 37);
         font-size: 2rem;
-        font-family: 'Lato', sans-serif;
+        font-family: $lato;
         text-align: center;
-        padding-top: 1rem;
-        
+        padding-top: $medida;
+
 
 
 
         @include movil {
-            padding: $rem;
+            padding:$medida;
 
         }
 
@@ -33,76 +34,72 @@
 
 
         &--img {
-            width: 100%;
-            height: 400px;
+            width: $w;
+            height: $h;
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
             position: relative;
             object-fit: cover;
             background-image: linear-gradient(rgba(12, 12, 12, 0.6), rgba(12, 12, 12, 0.6)), url(../imgPrincipal/principalIindex2.jpg);
-            
+
 
         }
 
-            @include movil {
-                margin-top: 0%;
-                font-size: 3rem;
-                padding: 0%;
+        @include movil {
+            margin-top: 0%;
+            font-size:$portada;
+            padding: 0%;
+            text-align: center;
+
+        }
+
+    }
+
+
+}
+
+/*clases de bootstrap*/
+.card-group {
+    padding:$medida;
+
+    .card {
+        margin:$medida;
+
+
+        &-body {
+            background-color:$contraste;
+
+            &-title {
+                color: $fondo;
                 text-align: center;
-
+                font-family: $open;
+                font-size: 1.5rem;
             }
-
         }
-
-
     }
-
-    /*clases de bootstrap*/
-    .card-group{
-        padding: 1rem;
-        
-       .card{
-        margin:  1rem;
-     
-       
-       .card-body{
-           background-color:rgb(243, 97, 12) ;
-           .card-title{
-               color: white;
-               text-align: center;
-               font-family: 'Lato', sans-serif;
-               font-size: 1.5rem;
-           }
-       }
-    }
- }
+}
 
 
 
-    .redirec {
-        color: rgb(37, 37, 37);
-        font-size: 2rem;
-        font-family: 'Lato', sans-serif;
-        text-align: center;
-        padding-top: 1rem;
-    
+.redirec {
+    color: rgb(37, 37, 37);
+    font-size: 2rem;
+    font-family: $lato;
+    text-align: center;
+    padding-top:$medida;
+
 
     &__maps {
-        width: 100%;
-        height: 400px;
+        width:$w;
+        height: $h;
         align-items: center;
         object-fit: contain;
         border-radius: 15px;
-        background: #ffffff;
-        box-shadow:  -7px 7px 14px #c7c6c6, 
-                   7px -7px 14px #ffffff;
+        background: $fondo;
+        box-shadow: $shadow;
+            
 
 
     }
- }
-
-
-    
-
-  
+}

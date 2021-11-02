@@ -2,15 +2,19 @@
 /*color de fuente*/
 /*color de fuente*/
 /*es el tamaño de varios que ocupo mas*/
-/*color de fondo*/
 /*tamaño general, vale para padding, margin, fuentes, etc */
 /*los bordes de todas mis images para darle luz y volumen*/
+/*tamaño de titulo de portada*/
+/*width*/
+/*height*/
 /*color de fuente*/
 /*color de fuente*/
 /*es el tamaño de varios que ocupo mas*/
-/*color de fondo*/
 /*tamaño general, vale para padding, margin, fuentes, etc */
 /*los bordes de todas mis images para darle luz y volumen*/
+/*tamaño de titulo de portada*/
+/*width*/
+/*height*/
 .main {
   background-color: white;
 }
@@ -18,7 +22,7 @@
 .main__subtitulo {
   color: #252525;
   font-size: 2rem;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   text-align: center;
   padding-top: 1rem;
 }
@@ -69,21 +73,21 @@
   margin: 1rem;
 }
 
-.card-group .card .card-body {
+.card-group .card-body {
   background-color: #f3610c;
 }
 
-.card-group .card .card-body .card-title {
+.card-group .card-body-title {
   color: white;
   text-align: center;
-  font-family: 'Lato', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1.5rem;
 }
 
 .redirec {
   color: #252525;
   font-size: 2rem;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   text-align: center;
   padding-top: 1rem;
 }
@@ -97,23 +101,27 @@
   -o-object-fit: contain;
      object-fit: contain;
   border-radius: 15px;
-  background: #ffffff;
-  -webkit-box-shadow: -7px 7px 14px #c7c6c6,  7px -7px 14px #ffffff;
-          box-shadow: -7px 7px 14px #c7c6c6,  7px -7px 14px #ffffff;
+  background: white;
+  -webkit-box-shadow: -7px 7px 14px #949393, 7px -7px 14px #aaa9a9;
+          box-shadow: -7px 7px 14px #949393, 7px -7px 14px #aaa9a9;
 }
 
 /*color de fuente*/
 /*color de fuente*/
 /*es el tamaño de varios que ocupo mas*/
-/*color de fondo*/
 /*tamaño general, vale para padding, margin, fuentes, etc */
 /*los bordes de todas mis images para darle luz y volumen*/
+/*tamaño de titulo de portada*/
+/*width*/
+/*height*/
 /*color de fuente*/
 /*color de fuente*/
 /*es el tamaño de varios que ocupo mas*/
-/*color de fondo*/
 /*tamaño general, vale para padding, margin, fuentes, etc */
 /*los bordes de todas mis images para darle luz y volumen*/
+/*tamaño de titulo de portada*/
+/*width*/
+/*height*/
 .main {
   background-color: white;
 }
@@ -121,7 +129,7 @@
 .main__subtitulo {
   color: #252525;
   font-size: 2rem;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   text-align: center;
   padding-top: 1rem;
 }
@@ -172,21 +180,21 @@
   margin: 1rem;
 }
 
-.card-group .card .card-body {
+.card-group .card-body {
   background-color: #f3610c;
 }
 
-.card-group .card .card-body .card-title {
+.card-group .card-body-title {
   color: white;
   text-align: center;
-  font-family: 'Lato', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1.5rem;
 }
 
 .redirec {
   color: #252525;
   font-size: 2rem;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   text-align: center;
   padding-top: 1rem;
 }
@@ -200,9 +208,9 @@
   -o-object-fit: contain;
      object-fit: contain;
   border-radius: 15px;
-  background: #ffffff;
-  -webkit-box-shadow: -7px 7px 14px #c7c6c6,  7px -7px 14px #ffffff;
-          box-shadow: -7px 7px 14px #c7c6c6,  7px -7px 14px #ffffff;
+  background: white;
+  -webkit-box-shadow: -7px 7px 14px #949393, 7px -7px 14px #aaa9a9;
+          box-shadow: -7px 7px 14px #949393, 7px -7px 14px #aaa9a9;
 }
 
 .nosotros {
@@ -229,8 +237,8 @@
 .nosotros__tex {
   position: absolute;
   top: 150px;
-  left: 2rem;
-  right: 2rem;
+  left: 1rem;
+  right: 1rem;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -238,7 +246,7 @@
 
 @media screen and (max-width: 320px) {
   .nosotros__tex {
-    top: 50px;
+    top: 100px;
   }
 }
 
@@ -246,15 +254,8 @@
   color: white;
   font-size: 3rem;
   letter-spacing: 2rem;
-}
-
-@media screen and (max-width: 320px) {
-  .nosotros__tex--titulo {
-    top: 200px;
-    font-size: 2rem;
-    text-align: center;
-    letter-spacing: 1rem;
-  }
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
 }
 
 @media screen and (max-width: 768px) {
@@ -267,24 +268,26 @@
 }
 
 .presentacion {
-  padding: 1rem;
+  padding-bottom: 1rem;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding: 2rem;
+  margin: 0%;
 }
 
 .presentacion_parrafo {
-  padding: 1rem;
   font-size: 1.5rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-family: "Open Sans", sans-serif;
+  color: black;
 }
 
 @media screen and (max-width: 768px) {
   .presentacion_parrafo {
     font-size: 1rem;
-    padding: 0.5rem;
   }
 }
 
@@ -294,6 +297,7 @@
   padding: 1rem;
   margin-left: 15rem;
   font-size: 1rem;
+  margin-bottom: 1rem;
 }
 
 @media screen and (max-width: 320px) {
@@ -317,22 +321,19 @@
 .nosotros__carrusel {
   border-radius: 15px;
   height: auto;
-  -webkit-box-shadow: 0 4px 8px #f3610c;
-          box-shadow: 0 4px 8px #f3610c;
+  background: white;
+  -webkit-box-shadow: -7px 7px 14px #949393, 7px -7px 14px #aaa9a9;
+          box-shadow: -7px 7px 14px #949393, 7px -7px 14px #aaa9a9;
 }
 
 .fondo {
   background-color: #6c6d6e94;
 }
 
-.fondo__item {
-  color: black;
-  font-size: 3rem;
-}
-
 .fondo__p {
-  color: white;
+  color: black;
   font-size: 1.5rem;
+  font-family: "Open Sans", sans-serif;
 }
 
 .offcanvas-header {
@@ -341,6 +342,8 @@
 
 .offcanvas-header__tit {
   color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5rem;
 }
 
 @media screen and (max-width: 320px) {
@@ -355,14 +358,15 @@
 
 .offcanvas-body--texto {
   color: black;
+  font-size: 1rem;
 }
 
 .offcanvas-body--off {
   width: 360px;
   height: auto;
   border-radius: 10px;
-  -webkit-box-shadow: 0 4px 8px #f3610c;
-          box-shadow: 0 4px 8px #f3610c;
+  -webkit-box-shadow: -7px 7px 14px #949393, 7px -7px 14px #aaa9a9;
+          box-shadow: -7px 7px 14px #949393, 7px -7px 14px #aaa9a9;
 }
 
 @media screen and (max-width: 320px) {
@@ -375,15 +379,19 @@
 /*color de fuente*/
 /*color de fuente*/
 /*es el tamaño de varios que ocupo mas*/
-/*color de fondo*/
 /*tamaño general, vale para padding, margin, fuentes, etc */
 /*los bordes de todas mis images para darle luz y volumen*/
+/*tamaño de titulo de portada*/
+/*width*/
+/*height*/
 /*color de fuente*/
 /*color de fuente*/
 /*es el tamaño de varios que ocupo mas*/
-/*color de fondo*/
 /*tamaño general, vale para padding, margin, fuentes, etc */
 /*los bordes de todas mis images para darle luz y volumen*/
+/*tamaño de titulo de portada*/
+/*width*/
+/*height*/
 .main {
   background-color: white;
 }
@@ -391,7 +399,7 @@
 .main__subtitulo {
   color: #252525;
   font-size: 2rem;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   text-align: center;
   padding-top: 1rem;
 }
@@ -442,21 +450,21 @@
   margin: 1rem;
 }
 
-.card-group .card .card-body {
+.card-group .card-body {
   background-color: #f3610c;
 }
 
-.card-group .card .card-body .card-title {
+.card-group .card-body-title {
   color: white;
   text-align: center;
-  font-family: 'Lato', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1.5rem;
 }
 
 .redirec {
   color: #252525;
   font-size: 2rem;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   text-align: center;
   padding-top: 1rem;
 }
@@ -470,28 +478,48 @@
   -o-object-fit: contain;
      object-fit: contain;
   border-radius: 15px;
-  background: #ffffff;
-  -webkit-box-shadow: -7px 7px 14px #c7c6c6,  7px -7px 14px #ffffff;
-          box-shadow: -7px 7px 14px #c7c6c6,  7px -7px 14px #ffffff;
+  background: white;
+  -webkit-box-shadow: -7px 7px 14px #949393, 7px -7px 14px #aaa9a9;
+          box-shadow: -7px 7px 14px #949393, 7px -7px 14px #aaa9a9;
 }
 
-/*los estilos de la seccion carta los traigo con import y otros los manipule directamente desde
-bootstrap*/
-.carta__titulo {
+.carta {
+  padding-top: 8rem;
+  color: white;
   text-align: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(12, 12, 12, 0.6)), to(rgba(12, 12, 12, 0.6))), url("../imagenesMenu/sandwich.jpg");
+  background-image: linear-gradient(rgba(12, 12, 12, 0.6), rgba(12, 12, 12, 0.6)), url("../imagenesMenu/sandwich.jpg");
+  width: 100%;
+  height: 400px;
+}
+
+.carta__p {
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+  letter-spacing: 1rem;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
 }
 
 .carta__contenedor {
-  padding-left: 2rem;
-  padding-right: 2rem;
+  margin-bottom: 2rem;
+  margin: 2rem;
 }
 
 .carta__contenedor .btn-secundary {
-  -webkit-box-shadow: 0 4px 8px #f3610c;
-          box-shadow: 0 4px 8px #f3610c;
+  -webkit-box-shadow: -7px 7px 14px #949393, 7px -7px 14px #aaa9a9;
+          box-shadow: -7px 7px 14px #949393, 7px -7px 14px #aaa9a9;
   background-color: white;
-  margin: 0%;
-  border: 0ch;
+  font-family: "Open Sans", sans-serif;
+  margin: 1rem;
+  padding: 0%;
 }
 
 .carta__contenedor .btn-secundary:hover {
@@ -514,80 +542,102 @@ bootstrap*/
 
 .carta__contenedor .modal-header #pizza {
   font-size: 2rem;
-  letter-spacing: 10px;
+  letter-spacing: 5px;
+  font-family: "Open Sans", sans-serif;
 }
 
 .carta__contenedor .modal-header #hamburguesaslabel {
-  font-size: 1rem;
+  font-size: 2rem;
   letter-spacing: 5px;
+  font-family: "Open Sans", sans-serif;
 }
 
 .carta__contenedor .modal-header #sandwichlabel {
   font-size: 2rem;
   letter-spacing: 5px;
+  font-family: "Open Sans", sans-serif;
 }
 
 .carta__contenedor .modal-header #alPlatolabel {
   font-size: 2rem;
   letter-spacing: 5px;
+  font-family: "Open Sans", sans-serif;
 }
 
 .carta__contenedor .modal-header #picadalabel {
   font-size: 2rem;
-  letter-spacing: 10px;
+  letter-spacing: 5px;
+  font-family: "Open Sans", sans-serif;
 }
 
 .carta__contenedor .modal-header #tostadolabel {
   font-size: 2rem;
   letter-spacing: 5px;
+  font-family: "Open Sans", sans-serif;
 }
 
-.carta__contenedor .carritoModal {
-  text-align: right;
+.carta__contenedor .modal-header .carritoModal {
   color: white;
 }
 
 .carta__contenedor .modal-body {
-  background-image: url(../imagenesMenu/sandwich.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(12, 12, 12, 0.6)), to(rgba(12, 12, 12, 0.6))), url(../imagenesMenu/alplato.jpg);
+  background-image: linear-gradient(rgba(12, 12, 12, 0.6), rgba(12, 12, 12, 0.6)), url(../imagenesMenu/alplato.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
-.carta .card-text {
+.carta__contenedor .modal-body .card-text {
   color: white;
-  font-size: 1rem;
-  background-color: rgba(0, 0, 0, 0.274);
+  font-size: 1.2rem;
+  font-family: "Open Sans", sans-serif;
 }
 
-.carta .card-precio {
+.carta__contenedor .modal-body .card-precio {
   color: white;
   font-size: 1rem;
-  background-color: rgba(0, 0, 0, 0.274);
   text-align: right;
 }
 
-.carta .modal-footer {
+.carta__contenedor .modal-footer {
   background-color: #f3610c;
 }
 
-.carta .modal-footer .spam {
+.carta__contenedor .modal-footer__spam {
   color: white;
 }
 
-.carta .modal-footer .wsp {
+.carta__contenedor .modal-footer__wsp {
   color: white;
+}
+
+.carta__contenedor .modal-footer__boton {
+  background-color: #f3610c;
+  padding: 0.5rem;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 15px;
 }
 
 /*color de fuente*/
 /*color de fuente*/
 /*es el tamaño de varios que ocupo mas*/
-/*color de fondo*/
 /*tamaño general, vale para padding, margin, fuentes, etc */
 /*los bordes de todas mis images para darle luz y volumen*/
+/*tamaño de titulo de portada*/
+/*width*/
+/*height*/
 /*color de fuente*/
 /*color de fuente*/
 /*es el tamaño de varios que ocupo mas*/
-/*color de fondo*/
 /*tamaño general, vale para padding, margin, fuentes, etc */
 /*los bordes de todas mis images para darle luz y volumen*/
+/*tamaño de titulo de portada*/
+/*width*/
+/*height*/
 .main {
   background-color: white;
 }
@@ -595,7 +645,7 @@ bootstrap*/
 .main__subtitulo {
   color: #252525;
   font-size: 2rem;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   text-align: center;
   padding-top: 1rem;
 }
@@ -646,21 +696,21 @@ bootstrap*/
   margin: 1rem;
 }
 
-.card-group .card .card-body {
+.card-group .card-body {
   background-color: #f3610c;
 }
 
-.card-group .card .card-body .card-title {
+.card-group .card-body-title {
   color: white;
   text-align: center;
-  font-family: 'Lato', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1.5rem;
 }
 
 .redirec {
   color: #252525;
   font-size: 2rem;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   text-align: center;
   padding-top: 1rem;
 }
@@ -674,14 +724,9 @@ bootstrap*/
   -o-object-fit: contain;
      object-fit: contain;
   border-radius: 15px;
-  background: #ffffff;
-  -webkit-box-shadow: -7px 7px 14px #c7c6c6,  7px -7px 14px #ffffff;
-          box-shadow: -7px 7px 14px #c7c6c6,  7px -7px 14px #ffffff;
-}
-
-.evento__titulo {
-  text-align: center;
-  color: black;
+  background: white;
+  -webkit-box-shadow: -7px 7px 14px #949393, 7px -7px 14px #aaa9a9;
+          box-shadow: -7px 7px 14px #949393, 7px -7px 14px #aaa9a9;
 }
 
 .contenedor {
@@ -709,7 +754,7 @@ bootstrap*/
 .contenedor__tex {
   position: absolute;
   top: 35%;
-  margin-left: 20%;
+  margin-left: 18%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -736,6 +781,8 @@ bootstrap*/
   font-size: 3rem;
   color: white;
   letter-spacing: 0.5rem;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
 }
 
 @media screen and (max-width: 320px) {
@@ -749,38 +796,41 @@ bootstrap*/
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 15px;
-  background: #ffffff;
-  -webkit-box-shadow: -7px 7px 14px #c7c6c6,  7px -7px 14px #ffffff;
-          box-shadow: -7px 7px 14px #c7c6c6,  7px -7px 14px #ffffff;
-  background-color: white;
+  background: white;
+  -webkit-box-shadow: -7px 7px 14px #949393, 7px -7px 14px #aaa9a9;
+          box-shadow: -7px 7px 14px #949393, 7px -7px 14px #aaa9a9;
   padding: 1rem;
 }
 
-.card-body .card-title {
+.card-body-title {
   color: #f3610c;
   text-align: center;
   font-size: 2rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
-.card-body .card_texto {
+.card-body_texto {
   font-size: 1rem;
   color: black;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 /*color de fuente*/
 /*color de fuente*/
 /*es el tamaño de varios que ocupo mas*/
-/*color de fondo*/
 /*tamaño general, vale para padding, margin, fuentes, etc */
 /*los bordes de todas mis images para darle luz y volumen*/
+/*tamaño de titulo de portada*/
+/*width*/
+/*height*/
 /*color de fuente*/
 /*color de fuente*/
 /*es el tamaño de varios que ocupo mas*/
-/*color de fondo*/
 /*tamaño general, vale para padding, margin, fuentes, etc */
 /*los bordes de todas mis images para darle luz y volumen*/
+/*tamaño de titulo de portada*/
+/*width*/
+/*height*/
 .main {
   background-color: white;
 }
@@ -788,7 +838,7 @@ bootstrap*/
 .main__subtitulo {
   color: #252525;
   font-size: 2rem;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   text-align: center;
   padding-top: 1rem;
 }
@@ -839,21 +889,21 @@ bootstrap*/
   margin: 1rem;
 }
 
-.card-group .card .card-body {
+.card-group .card-body {
   background-color: #f3610c;
 }
 
-.card-group .card .card-body .card-title {
+.card-group .card-body-title {
   color: white;
   text-align: center;
-  font-family: 'Lato', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1.5rem;
 }
 
 .redirec {
   color: #252525;
   font-size: 2rem;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   text-align: center;
   padding-top: 1rem;
 }
@@ -867,31 +917,43 @@ bootstrap*/
   -o-object-fit: contain;
      object-fit: contain;
   border-radius: 15px;
-  background: #ffffff;
-  -webkit-box-shadow: -7px 7px 14px #c7c6c6,  7px -7px 14px #ffffff;
-          box-shadow: -7px 7px 14px #c7c6c6,  7px -7px 14px #ffffff;
+  background: white;
+  -webkit-box-shadow: -7px 7px 14px #949393, 7px -7px 14px #aaa9a9;
+          box-shadow: -7px 7px 14px #949393, 7px -7px 14px #aaa9a9;
 }
 
 .redes {
+  padding-top: 6rem;
   color: white;
   text-align: center;
-  font-size: 1.8rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(12, 12, 12, 0.6)), to(rgba(12, 12, 12, 0.6))), url("../imgPrincipal/fondoContacto2.jpg");
+  background-image: linear-gradient(rgba(12, 12, 12, 0.6), rgba(12, 12, 12, 0.6)), url("../imgPrincipal/fondoContacto2.jpg");
+  width: 100%;
+  height: 400px;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
 }
 
-.redes__iconos {
-  background-image: url(../imagenesMenu/pizza-gf11bc2b89_640.jpg);
+.redes__p {
   text-align: center;
-  border: solid 2px white;
-  height: 200px;
-  padding: 1rem;
-  border-radius: 15px;
-  -webkit-box-shadow: 0 4px 8px rgba(189, 186, 186, 0.712);
-          box-shadow: 0 4px 8px rgba(189, 186, 186, 0.712);
+  font-size: 1.5rem;
+  color: white;
+  font-family: "Lato", sans-serif;
 }
 
-.redes__iconos .redes__iconos--P {
-  color: black;
-  font-size: 1.2rem;
+.redes__span {
+  width: 100%;
+  color: white;
+  text-align: center;
+  background-color: #f3610c;
+  padding: 0 1rem;
+  font-family: "Lato", sans-serif;
 }
 
 .main__contacto {
@@ -901,61 +963,73 @@ bootstrap*/
   width: 100%;
 }
 
-.main__contacto .main__formulario {
+.main__contacto__formulario {
   border-radius: 15px;
   padding: 1rem;
-  background-image: url(../imgPrincipal/fondoContacto2.jpg);
-  -webkit-box-shadow: 0 4px 8px rgba(189, 186, 186, 0.712);
-          box-shadow: 0 4px 8px rgba(189, 186, 186, 0.712);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(12, 12, 12, 0.6)), to(rgba(12, 12, 12, 0.6))), url("../imgPrincipal/fondoContacto2.jpg");
+  background-image: linear-gradient(rgba(12, 12, 12, 0.6), rgba(12, 12, 12, 0.6)), url("../imgPrincipal/fondoContacto2.jpg");
+  -webkit-box-shadow: -7px 7px 14px #949393, 7px -7px 14px #aaa9a9;
+          box-shadow: -7px 7px 14px #949393, 7px -7px 14px #aaa9a9;
 }
 
-.main__contacto .main__formulario .main__titulo {
+.main__contacto__formulario__titulo {
   text-align: center;
   font-size: 2rem;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
 }
 
-.main__contacto .main__formulario .formulario__name {
-  color: black;
+.main__contacto__formulario__name {
+  color: white;
   text-align: center;
   font-size: 1.5rem;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.2rem;
 }
 
-.main__contacto .main__formulario .formulario__name .formulario__name--item {
-  color: black;
+.main__contacto__formulario__name--item {
+  color: white;
   width: 80%;
+  font-family: "Lato", sans-serif;
 }
 
-.main__contacto .main__formulario .formulario__sucursal {
+.main__contacto__formulario .formulario__sucursal {
   margin: 2rem;
   font-size: 1.5rem;
   color: white;
+  font-family: white;
+  font-family: "Open Sans", sans-serif;
 }
 
-.main__contacto .main__formulario .formulario__sucursal .formulario__labelaction {
+.main__contacto__formulario .formulario__sucursal__label {
   width: 20%;
   text-align: center;
-  -webkit-box-shadow: 0 4px 8px rgba(189, 186, 186, 0.712);
-          box-shadow: 0 4px 8px rgba(189, 186, 186, 0.712);
 }
 
 @media screen and (max-width: 768px) {
-  .main__contacto .main__formulario .formulario__sucursal .formulario__labelaction {
+  .main__contacto__formulario .formulario__sucursal__label {
     width: 100%;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .main__contacto .main__formulario .formulario__sucursal .formulario__labelaction {
+  .main__contacto__formulario .formulario__sucursal__label {
     width: 100%;
   }
 }
 
-.main__contacto .main__formulario .formulario__sucursal .formulario__labelaction .formulario__label--option {
-  background-color: #1e1e22;
+.main__contacto__formulario .formulario__sucursal__label--option {
+  background-color: white;
   color: white;
 }
 
-.main__contacto .main__formulario .formulario__calif {
+.main__contacto__formulario .formulario__calif {
   text-align: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -967,24 +1041,24 @@ bootstrap*/
   font-size: 1.5rem;
 }
 
-.main__contacto .main__formulario .formulario__calif .form-label {
-  background-color: rgba(255, 255, 255, 0.527);
-  border-radius: 5px;
+.main__contacto__formulario .formulario__calif .form-label {
   padding: 5px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
 }
 
-.main__contacto .main__formulario .formulario__calif .boton {
-  background-color: #1e1e22;
-  -webkit-box-shadow: 0 4px 8px rgba(189, 186, 186, 0.712);
-          box-shadow: 0 4px 8px rgba(189, 186, 186, 0.712);
+.main__contacto__formulario .formulario__calif .boton {
+  background-color: #555151;
   margin-right: 2rem;
-  color: white;
+  color: black;
   padding: 0.5rem;
   border-radius: 15px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
 }
 
 @media screen and (max-width: 320px) {
-  .main__contacto .main__formulario .formulario__calif .boton {
+  .main__contacto__formulario .formulario__calif .boton {
     margin: 0%;
   }
 }
@@ -992,9 +1066,11 @@ bootstrap*/
 /*color de fuente*/
 /*color de fuente*/
 /*es el tamaño de varios que ocupo mas*/
-/*color de fondo*/
 /*tamaño general, vale para padding, margin, fuentes, etc */
 /*los bordes de todas mis images para darle luz y volumen*/
+/*tamaño de titulo de portada*/
+/*width*/
+/*height*/
 .footer {
   display: inline;
   width: 100%;
@@ -1062,9 +1138,11 @@ bootstrap*/
 /*color de fuente*/
 /*color de fuente*/
 /*es el tamaño de varios que ocupo mas*/
-/*color de fondo*/
 /*tamaño general, vale para padding, margin, fuentes, etc */
 /*los bordes de todas mis images para darle luz y volumen*/
+/*tamaño de titulo de portada*/
+/*width*/
+/*height*/
 .sectionNav {
   background-color: #f3610c;
 }
@@ -1081,7 +1159,8 @@ bootstrap*/
   font-size: 1.2rem;
   margin-right: 1rem;
   padding: 0%;
-  color: black;
+  color: white;
+  font-family: "Lato", sans-serif;
 }
 
 @media screen and (max-width: 320px) {
@@ -1096,11 +1175,15 @@ bootstrap*/
   }
 }
 
+.sectionNav__item--seccion:hover {
+  color: black;
+}
+
 .sectionNav__logo {
   color: white;
   font-size: 2.5rem;
   margin-left: 2rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
 }
 

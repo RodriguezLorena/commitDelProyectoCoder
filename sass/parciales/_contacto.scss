@@ -4,83 +4,116 @@
 
 
 .redes {
-    color: $color;
+    padding-top: 6rem;
+    color:$fondo;
     text-align: center;
-    font-size: 1.8rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    object-fit: cover;
+    background-image: linear-gradient(rgba(12, 12, 12, 0.6), rgba(12, 12, 12, 0.6)), url("../imgPrincipal/fondoContacto2.jpg");
+    width: $w;
+    height: $h;
+    font-family: $open;
+    text-transform: uppercase;
+
+
+    &__p {
+        text-align: center;
+        font-size: 1.5rem;
+        color: $fondo;
+        font-family: $lato;
+
+
+    }    
+    
+}
+
+.redes__span {
+    width: $w;
+    color: $fondo;
+    text-align: center;
+    background-color: $contraste;
+    padding: 0 1rem;
+    font-family: $lato;
+
 
 }
 
-.redes__iconos {
-    background-image: url(../imagenesMenu/pizza-gf11bc2b89_640.jpg);
-    text-align: center;
-    border: solid 2px $color;
-    height: 200px;
-    padding: 1rem;
-    border-radius: 15px;
-    box-shadow: $shadow;
-
-    .redes__iconos--P {
-        color: $fuente;
-        font-size: 1.2rem;
-
-    }
-}
 
 .main__contacto {
     display: block;
-    padding: 1rem;
-    color: $color;
-    width: 100%;
+    padding: $medida;
+    color: $fondo;
+    width: $w;
 
 
 
 
-    .main__formulario {
+
+
+    &__formulario {
         border-radius: 15px;
-        padding: 1rem;
-        background-image: url(../imgPrincipal/fondoContacto2.jpg);
+        padding:$medida;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        object-fit: cover;
+        background-image: linear-gradient(rgba(12, 12, 12, 0.6), rgba(12, 12, 12, 0.6)), url("../imgPrincipal/fondoContacto2.jpg");
         box-shadow: $shadow;
 
-        .main__titulo {
+        &__titulo {
             text-align: center;
             font-size: 2rem;
+            font-family: $open;
+            text-transform: uppercase;
         }
 
-        .formulario__name {
-            color: $fuente;
+        &__name {
+            color: $fondo;
             text-align: center;
             font-size: 1.5rem;
+            font-family: $open;
+            letter-spacing: 0.2rem;
 
 
-            .formulario__name--item {
-                color: $fuente;
+            &--item {
+                color: $fondo;
                 width: 80%;
+                font-family: $lato;
+
             }
         }
 
         .formulario__sucursal {
             margin: 2rem;
             font-size: 1.5rem;
-            color: $color;
+            color: $fondo;
+            font-family:$fondo;
+            font-family: $open;
 
 
-            .formulario__labelaction {
+
+
+            &__label {
                 width: 20%;
                 text-align: center;
-                box-shadow: $shadow;
+
 
                 @include tablet {
-                    width: 100%;
+                    width: $w;
                 }
 
                 @include movil {
-                    width: 100%;
+                    width: $w;
                 }
 
 
-                .formulario__label--option {
+                &--option {
                     background-color: $fondo;
-                    color: $color;
+                    color: $fondo;
 
                 }
             }
@@ -95,19 +128,19 @@
             font-size: 1.5rem;
 
             .form-label {
-
-                background-color: rgba(255, 255, 255, 0.527);
-                border-radius: 5px;
                 padding: 5px;
+                font-family: $open;
+                color: $fondo;
             }
 
             .boton {
-                background-color: $fondo;
-                box-shadow: $shadow;
+                background-color: rgb(85, 81, 81);
                 margin-right: 2rem;
-                color: $color;
+                color: $fuente;
                 padding: 0.5rem;
                 border-radius: 15px;
+                font-family: $open;
+                color: $fondo;
 
                 @include movil {
                     margin: 0%;
