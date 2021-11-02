@@ -6,7 +6,7 @@
      color: $fondo;
 
      @include movil {
-         font-size:$medida;
+         font-size: $medida;
      }
 
      &__icono {
@@ -28,7 +28,7 @@
          margin-right: $medida;
          margin-bottom: $medida;
 
-         @include movil{
+         @include movil {
              font-size: $medida;
          }
      }

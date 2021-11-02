@@ -13,38 +13,39 @@
     object-fit: cover;
     background-image: linear-gradient(rgba(12, 12, 12, 0.6), rgba(12, 12, 12, 0.6)), url("../imagenesMenu/sandwich.jpg");
     width: $w;
-    height:$h;
+    height: $h;
 
     &__p {
         text-align: center;
-        font-size:$portada;
+        font-size: $portada;
         color: $fondo;
         letter-spacing: $medida;
         font-family: $open;
         text-transform: uppercase;
-        
+
     }
 
 
 
     &__contenedor {
-       margin-bottom: 2rem;
-       margin: 2rem;
-     
-     
+        margin-bottom: 2rem;
+        margin-right: 2rem;
+
+
+
 
         .btn-secundary {
-            box-shadow:$shadow;
-            background-color:$fondo;
+            box-shadow: $shadow;
+            background-color: $fondo;
             font-family: $open;
             margin: $medida;
             padding: 0%;
-            
+
 
         }
 
         .btn-secundary:hover {
-            background-color: $contraste;  
+            background-color: $contraste;
 
         }
 
@@ -61,14 +62,18 @@
         .modal-header {
             background-color: $contraste;
             color: $fondo;
-            
-            
+
+
 
             #pizza {
                 font-size: 2rem;
                 letter-spacing: 5px;
                 font-family: $open;
 
+                @include movil {
+                    letter-spacing: 0%;
+                    font-size: 1.5rem;
+                }
             }
 
             #hamburguesaslabel {
@@ -76,7 +81,10 @@
                 letter-spacing: 5px;
                 font-family: $open;
 
-
+                @include movil {
+                    letter-spacing: 0%;
+                    font-size: 1rem;
+                }
             }
 
             #sandwichlabel {
@@ -84,6 +92,10 @@
                 letter-spacing: 5px;
                 font-family: $open;
 
+                @include movil {
+                    letter-spacing: 0%;
+                    font-size: 1.5rem;
+                }
             }
 
             #alPlatolabel {
@@ -91,6 +103,10 @@
                 letter-spacing: 5px;
                 font-family: $open;
 
+                @include movil {
+                    letter-spacing: 0%;
+                    font-size: 1.5rem;
+                }
             }
 
             #picadalabel {
@@ -98,6 +114,10 @@
                 letter-spacing: 5px;
                 font-family: $open;
 
+                @include movil {
+                    letter-spacing: 0%;
+                    font-size: 1.5rem;
+                }
             }
 
             #tostadolabel {
@@ -105,6 +125,10 @@
                 letter-spacing: 5px;
                 font-family: $open;
 
+                @include movil {
+                    letter-spacing: 0%;
+                    font-size: 1.5rem;
+                }
 
             }
 
@@ -113,7 +137,7 @@
             }
         }
 
-      
+
 
 
         .modal-body {
@@ -123,28 +147,28 @@
             background-size: cover;
             position: relative;
             object-fit: cover;
-           
+
 
             .card-text {
                 color: $fondo;
-                font-size: 1.2rem; 
+                font-size: 1.2rem;
                 font-family: $open;
-    
-    
+
+
             }
-    
+
             .card-precio {
                 color: $fondo;
                 font-size: $medida;
                 text-align: right;
-    
+
             }
-    
+
 
 
         }
 
-       
+
         .modal-footer {
             background-color: $contraste;
 
@@ -155,20 +179,21 @@
             &__wsp {
                 color: $fondo;
             }
-            &__boton{
+
+            &__boton {
                 background-color: $contraste;
                 padding: 0.5rem;
                 font-family: $open;
                 border-radius: 15px;
-                
-               
-               
+                border: none;
+
+
+
             }
-           
+
         }
-       
-       
+
+
     }
 
 }
-

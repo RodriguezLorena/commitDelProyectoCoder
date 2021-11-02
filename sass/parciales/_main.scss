@@ -19,7 +19,7 @@
 
 
         @include movil {
-            padding:$medida;
+            padding: $medida;
 
         }
 
@@ -48,12 +48,30 @@
 
         @include movil {
             margin-top: 0%;
-            font-size:$portada;
+            font-size: $portada;
             padding: 0%;
             text-align: center;
 
         }
 
+        &--tex {
+            position: absolute;
+            top: 150px;
+            left: $medida;
+            right: $medida;
+            justify-content: center;
+            color: $fondo;
+            font-size: $portada;
+            font-family: $open;
+            text-transform: uppercase;
+
+            @include movil {
+                top: 100px;
+                font-size: 2rem;
+
+
+            }
+        }
     }
 
 
@@ -61,14 +79,14 @@
 
 /*clases de bootstrap*/
 .card-group {
-    padding:$medida;
+    padding: $medida;
 
     .card {
-        margin:$medida;
+        margin: $medida;
 
 
         &-body {
-            background-color:$contraste;
+            background-color: $contraste;
 
             &-title {
                 color: $fondo;
@@ -87,18 +105,18 @@
     font-size: 2rem;
     font-family: $lato;
     text-align: center;
-    padding-top:$medida;
+    padding-top: $medida;
 
 
     &__maps {
-        width:$w;
+        width: $w;
         height: $h;
         align-items: center;
         object-fit: contain;
         border-radius: 15px;
         background: $fondo;
         box-shadow: $shadow;
-            
+
 
 
     }

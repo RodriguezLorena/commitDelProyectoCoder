@@ -3,7 +3,7 @@
 
 
 .sectionNav {
-  background-color:$contraste;
+  background-color: $contraste;
 
   &__ancor {
     color: $contraste;
@@ -20,9 +20,9 @@
       font-size: 1.2rem;
       margin-right: $medida;
       padding: 0%;
-      color:$fondo;
+      color: $fondo;
       font-family: $lato;
-      
+
 
 
 
@@ -38,6 +38,12 @@
     &--seccion:hover {
       color: $fuente;
     }
+  }
+
+
+  .sectionNav__ico {
+    color: $fondo;
+
   }
 
 
@@ -61,8 +67,6 @@
     color: $fondo;
     margin-top: $medida;
     margin-right: $medida;
-
-
 
   }
 

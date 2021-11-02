@@ -10,7 +10,7 @@
     position: relative;
     display: flex;
     text-align: center;
-    
+
 
 
     &__img {
@@ -28,29 +28,29 @@
     &__tex {
         position: absolute;
         top: 150px;
-        left:1rem;
-        right: 1rem;
+        left: $medida;
+        right: $medida;
         justify-content: center;
 
         @include movil {
-            top:100px;
-           
+            top: 100px;
+
 
         }
 
         &--titulo {
             color: $fondo;
-            font-size:$portada;
+            font-size: $portada;
             letter-spacing: 2rem;
             font-family: $open;
             text-transform: uppercase;
 
-           
+
             @include tablet {
                 top: 50px;
                 font-size: 2rem;
                 letter-spacing: 0.8rem;
-                padding-top: 1rem;
+                padding-top: $medida;
 
             }
         }
@@ -64,11 +64,11 @@
     justify-content: center;
     padding: 2rem;
     margin: 0%;
-    
+
 
 
     &_parrafo {
-    
+
         font-size: 1.5rem;
         align-items: center;
         font-family: $open;
@@ -76,7 +76,7 @@
 
         @include tablet {
             font-size: $medida;
-         
+
         }
 
 
@@ -90,7 +90,7 @@
     margin-left: 15rem;
     font-size: $medida;
     margin-bottom: 1rem;
-    
+
 
     @include movil {
         margin-left: 4rem;
@@ -111,11 +111,11 @@
 
 .nosotros__carrusel {
     border-radius: 15px;
-   
+
     height: auto;
-    background:$fondo;
-    box-shadow:$shadow;
-   
+    background: $fondo;
+    box-shadow: $shadow;
+
 
 
 }
@@ -125,12 +125,12 @@
 .fondo {
     background-color: #6c6d6e94;
 
-   
+
 
     &__p {
         color: $fuente;
         font-size: 1.5rem;
-        font-family:$open;
+        font-family: $open;
     }
 
 }
@@ -138,11 +138,11 @@
 .offcanvas {
 
     &-header {
-        background-color:$contraste;
+        background-color: $contraste;
 
         &__tit {
-            color:$fondo;
-            font-family:$open;
+            color: $fondo;
+            font-family: $open;
             font-size: 1.5rem;
 
 
@@ -156,11 +156,11 @@
     }
 
     &-body {
-        background-color:$fondo;
+        background-color: $fondo;
 
         &--texto {
             color: $fuente;
-            font-size:$medida;
+            font-size: $medida;
         }
 
         &--off {
