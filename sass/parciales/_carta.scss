@@ -2,129 +2,170 @@
 @import "./main";
 @import "./media";
 
-/*los estilos de la seccion carta los traigo con import y otros los manipule directamente desde
-bootstrap*/
-.carta{
-
-&__titulo{
+.carta {
+    padding-top: 8rem;
+    color: $fondo;
     text-align: center;
-}
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    object-fit: cover;
+    background-image: linear-gradient(rgba(12, 12, 12, 0.6), rgba(12, 12, 12, 0.6)), url("../imagenesMenu/sandwich.jpg");
+    width: $w;
+    height:$h;
 
-&__contenedor {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    &__p {
+        text-align: center;
+        font-size:$portada;
+        color: $fondo;
+        letter-spacing: $medida;
+        font-family: $open;
+        text-transform: uppercase;
+        
+    }
+
+
+
+    &__contenedor {
+     
+     
+
+        .btn-secundary {
+            box-shadow:$shadow;
+            background-color:$fondo;
+            font-family: $open;
+            margin: $medida;
+            padding: 0%;
+            
+
+        }
+
+        .btn-secundary:hover {
+            background-color: $contraste;  
+
+        }
+
+        .btn-secundary:hover &__subtitulo {
+            color: $fondo;
+
+        }
+
+        .btn {
+            transition: all 0.5s;
+
+        }
+
+        .modal-header {
+            background-color: $contraste;
+            color: $fondo;
+            
+
+            #pizza {
+                font-size: 2rem;
+                letter-spacing: 5px;
+                font-family: $open;
+
+            }
+
+            #hamburguesaslabel {
+                font-size: 2rem;
+                letter-spacing: 5px;
+                font-family: $open;
+
+
+            }
+
+            #sandwichlabel {
+                font-size: 2rem;
+                letter-spacing: 5px;
+                font-family: $open;
+
+            }
+
+            #alPlatolabel {
+                font-size: 2rem;
+                letter-spacing: 5px;
+                font-family: $open;
+
+            }
+
+            #picadalabel {
+                font-size: 2rem;
+                letter-spacing: 5px;
+                font-family: $open;
+
+            }
+
+            #tostadolabel {
+                font-size: 2rem;
+                letter-spacing: 5px;
+                font-family: $open;
+
+
+            }
+
+            .carritoModal {
+                color: $fondo;
+            }
+        }
+
+      
+
+
+        .modal-body {
+            background-image: linear-gradient(rgba(12, 12, 12, 0.6), rgba(12, 12, 12, 0.6)), url(../imagenesMenu/alplato.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            object-fit: cover;
+           
+
+            .card-text {
+                color: $fondo;
+                font-size: 1.2rem; 
+                font-family: $open;
+    
+    
+            }
+    
+            .card-precio {
+                color: $fondo;
+                font-size: $medida;
+                text-align: right;
+    
+            }
     
 
-    .btn-secundary {
-        box-shadow: 0 4px 8px rgb(243, 97, 12);
-        background-color:white;
-        margin: 0%;
-        border: 0ch;
-
-
-
-    }
-
-    .btn-secundary:hover {
-
-        background-color: rgb(243, 97, 12);
-        
-
-    }
-
-    .btn-secundary:hover &__subtitulo {
-        color:white;
-
-    }
-
-    .btn {
-        transition: all 0.5s;
-        
-    }
-
-    .modal-header {
-        background-color: rgb(243, 97, 12);
-        color: white;
-
-        #pizza {
-            font-size: 2rem;
-            letter-spacing: 10px;
-        }
-
-        #hamburguesaslabel {
-            font-size: 1rem;
-            letter-spacing: 5px;
 
         }
 
-        #sandwichlabel {
-            font-size: 2rem;
-            letter-spacing: 5px;
-        }
+       
+        .modal-footer {
+            background-color: $contraste;
 
-        #alPlatolabel {
-            font-size: 2rem;
-            letter-spacing: 5px;
-        }
+            &__spam {
+                color: $fondo;
+            }
 
-        #picadalabel {
-            font-size: 2rem;
-            letter-spacing: 10px;
+            &__wsp {
+                color: $fondo;
+            }
+            &__boton{
+                background-color: $contraste;
+                padding: 0.5rem;
+                font-family: $open;
+                border-radius: 15px;
+                
+               
+               
+            }
+           
         }
-
-        #tostadolabel {
-            font-size: 2rem;
-            letter-spacing: 5px;
-        }
+       
+       
     }
-
-    .carritoModal {
-        text-align: right;
-        color: white;
-        
-
-
-    }
-
-
-    .modal-body {
-
-        background-image: url(../imagenesMenu/sandwich.jpg);
-
-
-
-
-    }
-
-
 
 }
 
-.card-text {
-    color: white;
-    font-size: 1rem;
-    background-color: rgba(0, 0, 0, 0.274);
-
-
-}
-
-.card-precio {
-    color: white;
-    font-size: 1rem;
-    background-color: rgba(0, 0, 0, 0.274);
-    text-align: right;
-
-}
-
-.modal-footer {
-    background-color: rgb(243, 97, 12);
-
-    .spam {
-        color: white;
-    }
-
-    .wsp {
-    color: white;
-    }
-}
- }

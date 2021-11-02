@@ -1,12 +1,19 @@
-$color: white;
+$contraste: rgb(243, 97, 12);
 /*color de fuente*/
 $fuente: black;
 /*color de fuente*/
-$medida: 1.2rem;
+$fondo: white;
 /*es el tamaño de varios que ocupo mas*/
-$fondo: rgb(30, 30, 34);
-/*color de fondo*/
-$rem: 1rem;
+$medida: 1rem;
 /*tamaño general, vale para padding, margin, fuentes, etc */
-$shadow: 0 4px 8px rgba(189, 186, 186, 0.712);
+$shadow:  -7px 7px 14px #949393,
+7px -7px 14px #aaa9a9;
 /*los bordes de todas mis images para darle luz y volumen*/
+$portada:3rem;
+/*tamaño de titulo de portada*/
+$w:100%;
+/*width*/
+$h:400px;
+/*height*/
+$open:'Open Sans', sans-serif;
+$lato:'Lato', sans-serif;

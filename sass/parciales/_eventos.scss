@@ -4,10 +4,7 @@
 
 
 
-.evento__titulo {
-  text-align: center;
-  color: black;
-}
+
 
 .contenedor {
   position: relative;
@@ -36,10 +33,11 @@
   &__tex {
     position: absolute;
     top: 35%;
-    margin-left: 20%;
+    margin-left: 18%;
     justify-content: center;
     border-radius: 15px;
     display: flex;
+
 
 
 
@@ -57,9 +55,11 @@
     }
 
     &--titulo {
-      font-size: 3rem;
-      color: white;
+      font-size: $portada;
+      color: $fondo;
       letter-spacing: 0.5rem;
+      font-family: $open;
+      text-transform: uppercase;
 
 
       @include movil {
@@ -77,25 +77,25 @@
   height: 100%;
   object-fit: cover;
   border-radius: 15px;
-  background: #ffffff;
-  box-shadow:  -7px 7px 14px #c7c6c6, 
-             7px -7px 14px #ffffff;
-  background-color: white;
-  padding: 1rem;
+  background: $fondo;
+  box-shadow:$shadow;
+  padding: $medida;
+
+  
 
   &-body {
 
-    .card-title {
-      color: rgb(243, 97, 12);
+    &-title {
+      color: $contraste;
       text-align: center;
       font-size: 2rem;
-      font-family: 'Open Sans', sans-serif;
+      font-family: $open;
     }
 
-    .card_texto {
-      font-size: 1rem;
-      color: black;
-      font-family: 'Open Sans', sans-serif;
+    &_texto {
+      font-size: $medida;
+      color: $fuente;
+      font-family: $open;
     }
   }
 }

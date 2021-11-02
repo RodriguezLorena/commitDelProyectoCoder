@@ -1,61 +1,64 @@
  @import "./variables";
 
- .footer{
+ .footer {
      display: inline;
      width: 100%;
-     color: white;
-    
+     color: $fondo;
+
      @include movil {
-        font-size: 1rem;
-    }
+         font-size:$medida;
+     }
+
      &__icono {
          text-align: center;
-         font-size: $rem;
+         font-size: $medida;
          align-items: center;
-         background-color:rgb(243, 97, 12);
-         color: white;
-         
-        
-        }
+         background-color: $contraste;
+         color: $fondo;
 
-    &__ancor{
-        color:rgb(243, 97, 12);
-    }    
-    &__redes{
-            color:white;
-            margin-right: 1rem;
-            margin-bottom: 1rem;
-           
-              @include movil {
-                  font-size: $rem;
-              }  
-          } 
-       
+
+     }
+
+     &__ancor {
+         color: $contraste;
+     }
+
+     &__redes {
+         color: $fondo;
+         margin-right: $medida;
+         margin-bottom: $medida;
+
+         @include movil{
+             font-size: $medida;
+         }
+     }
+
 
      &__img {
          width: 30px;
          height: 30px;
          margin: 0.3rem;
-        
+
      }
-    
+
 
      &__address {
-         color: white;
+         color: $fondo;
          font-size: 0.8rem;
          text-align: end;
          margin-right: 0.5rem;
-         background-color: rgb(243, 97, 12);
-         padding-bottom: 1rem;
-         address{
-          margin: 0;/*estilizando un elemento de html*/
-         } 
+         background-color: $contraste;
+         padding-bottom: $medida;
 
-         
+         address {
+             margin: 0;
+             /*estilizando un elemento de html*/
+         }
+
+
 
          @include tablet {
              text-align: center;
          }
      }
  }
-  
