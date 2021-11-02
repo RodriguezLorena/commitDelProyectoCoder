@@ -28,12 +28,13 @@
     &__tex {
         position: absolute;
         top: 150px;
-        left: 2rem;
-        right: 2rem;
+        left:1rem;
+        right: 1rem;
         justify-content: center;
 
         @include movil {
-            top: 50px;
+            top:100px;
+           
 
         }
 
@@ -44,14 +45,7 @@
             font-family: $open;
             text-transform: uppercase;
 
-            @include movil {
-                top: 200px;
-                font-size: 2rem;
-                text-align: center;
-                letter-spacing: 1rem;
-
-            }
-
+           
             @include tablet {
                 top: 50px;
                 font-size: 2rem;
@@ -68,10 +62,13 @@
 .presentacion {
     padding-bottom: $medida;
     justify-content: center;
+    padding: 2rem;
+    margin: 0%;
+    
 
 
     &_parrafo {
-        
+    
         font-size: 1.5rem;
         align-items: center;
         font-family: $open;
@@ -79,7 +76,7 @@
 
         @include tablet {
             font-size: $medida;
-            padding: 0.5rem;
+         
         }
 
 
@@ -92,6 +89,8 @@
     padding: $medida;
     margin-left: 15rem;
     font-size: $medida;
+    margin-bottom: 1rem;
+    
 
     @include movil {
         margin-left: 4rem;
@@ -112,10 +111,11 @@
 
 .nosotros__carrusel {
     border-radius: 15px;
+   
     height: auto;
     background:$fondo;
     box-shadow:$shadow;
-        
+   
 
 
 }
@@ -125,11 +125,7 @@
 .fondo {
     background-color: #6c6d6e94;
 
-    &__item {
-        color: $fondo;
-        font-size:$portada;
-
-    }
+   
 
     &__p {
         color: $fuente;
