@@ -604,6 +604,14 @@
   transition: all 0.5s;
 }
 
+@media screen and (max-width: 768px) {
+  .carta__contenedor {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 .carta__contenedor .modal-header {
   background-color: #f3610c;
   color: white;
