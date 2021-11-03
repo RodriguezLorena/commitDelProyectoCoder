@@ -91,11 +91,12 @@
       font-size: 2rem;
       font-family: $open;
     }
-
-    &_texto {
+    &-text {
       font-size: $medida;
       color: $fuente;
-      font-family: $open;
+      font-family:$open;
     }
+   
   }
+  
 }
