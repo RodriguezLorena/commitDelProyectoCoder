@@ -12,11 +12,12 @@
     background-size: cover;
     position: relative;
     object-fit: cover;
-    background-image: linear-gradient(rgba(12, 12, 12, 0.6), rgba(12, 12, 12, 0.6)), url("../imgPrincipal/fondoContacto2.jpg");
+    background-image: linear-gradient(rgba(12, 12, 12, 0.6), rgba(12, 12, 12, 0.6)), url(https://res.cloudinary.com/lorenacoder/image/upload/v1636844310/morenaweb/imagenesMenu/sandwich_jejycz.jpg);
     width: $w;
     height: $h;
     font-family: $open;
     text-transform: uppercase;
+   
 
 
     &__p {
@@ -24,7 +25,6 @@
         font-size: 1.5rem;
         color: $fondo;
         font-family: $lato;
-
 
     }
 
@@ -49,10 +49,6 @@
     width: $w;
 
 
-
-
-
-
     &__formulario {
         border-radius: 15px;
         padding: $medida;
@@ -61,8 +57,11 @@
         background-size: cover;
         position: relative;
         object-fit: cover;
-        background-image: linear-gradient(rgba(12, 12, 12, 0.6), rgba(12, 12, 12, 0.6)), url("../imgPrincipal/fondoContacto2.jpg");
+        background-image: linear-gradient(rgba(12, 12, 12, 0.6),
+                rgba(12, 12, 12, 0.6)),
+            url("https://res.cloudinary.com/lorenacoder/image/upload/v1636844310/morenaweb/imagenesMenu/sandwich_jejycz.jpg");
         box-shadow: $shadow;
+
 
         &__titulo {
             text-align: center;
@@ -93,8 +92,13 @@
             color: $fondo;
             font-family: $fondo;
             font-family: $open;
-
-
+            padding: 0 6rem;
+            @include movil {
+                padding: 0%;
+            }
+            @include tablet {
+                padding: 0%;
+            }
 
 
             &__label {
@@ -126,6 +130,14 @@
             justify-content: center;
             color: $fuente;
             font-size: 1.5rem;
+            padding: 0 8rem;
+              @include movil{
+                  padding: 0;
+              }
+              @include tablet{
+                padding: 0;
+            }
+
 
             .form-label {
                 padding: 5px;

@@ -13,7 +13,7 @@
 }
 
 @mixin notebook {
-    @media screen and (max-width:920px) {
+    @media screen and (max-width:1024px) {
         @content;
     }
 

@@ -1,0 +1,131 @@
+@charset "UTF-8";
+/*color de fuente*/
+/*color de fuente*/
+/*es el tamaño de varios que ocupo mas*/
+/*tamaño general, vale para padding, margin, fuentes, etc */
+/*los bordes de todas mis images para darle luz y volumen*/
+/*tamaño de titulo de portada*/
+/*width*/
+/*height*/
+/*fuente googlefond*/
+/*color de fuente*/
+/*color de fuente*/
+/*es el tamaño de varios que ocupo mas*/
+/*tamaño general, vale para padding, margin, fuentes, etc */
+/*los bordes de todas mis images para darle luz y volumen*/
+/*tamaño de titulo de portada*/
+/*width*/
+/*height*/
+/*fuente googlefond*/
+.main {
+  background-color: white;
+}
+
+.main__subtitulo {
+  color: #252525;
+  font-size: 2rem;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+@media screen and (max-width: 320px) {
+  .main__subtitulo {
+    padding: 1rem;
+  }
+}
+
+.main__contenedor {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  contain: content;
+}
+
+.main__contenedor--img {
+  width: 100%;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(12, 12, 12, 0.6)), to(rgba(12, 12, 12, 0.6))), url("https://res.cloudinary.com/lorenacoder/image/upload/v1636844310/morenaweb/imgPrincipal/principalIindex2_vm3krl.jpg");
+  background-image: linear-gradient(rgba(12, 12, 12, 0.6), rgba(12, 12, 12, 0.6)), url("https://res.cloudinary.com/lorenacoder/image/upload/v1636844310/morenaweb/imgPrincipal/principalIindex2_vm3krl.jpg");
+}
+
+@media screen and (max-width: 320px) {
+  .main__contenedor {
+    margin-top: 0%;
+    font-size: 3rem;
+    padding: 0%;
+    text-align: center;
+  }
+}
+
+.main__contenedor--tex {
+  position: absolute;
+  top: 150px;
+  left: 1rem;
+  right: 1rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  font-size: 3rem;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 320px) {
+  .main__contenedor--tex {
+    top: 100px;
+    font-size: 2rem;
+  }
+}
+
+/*clases de bootstrap*/
+.card-group {
+  padding: 1rem;
+}
+
+.card-group .card {
+  margin: 1rem;
+}
+
+.card-group .card-body {
+  background-color: #f3610c;
+}
+
+.card-group .card-body-title {
+  color: white;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5rem;
+}
+
+.redirec {
+  color: #252525;
+  font-size: 2rem;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.redirec__maps {
+  width: 100%;
+  height: 400px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 15px;
+  background: white;
+  -webkit-box-shadow: -7px 7px 14px #949393, 7px -7px 14px #aaa9a9;
+          box-shadow: -7px 7px 14px #949393, 7px -7px 14px #aaa9a9;
+}
+/*# sourceMappingURL=manudos.css.map */

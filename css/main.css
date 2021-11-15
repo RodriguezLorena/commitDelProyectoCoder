@@ -22,7 +22,7 @@
 }
 
 .main__subtitulo {
-  color: #252525;
+  color: black;
   font-size: 2rem;
   font-family: "Lato", sans-serif;
   text-align: center;
@@ -53,8 +53,8 @@
   position: relative;
   -o-object-fit: cover;
      object-fit: cover;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(12, 12, 12, 0.6)), to(rgba(12, 12, 12, 0.6))), url(../imgPrincipal/principalIindex2.jpg);
-  background-image: linear-gradient(rgba(12, 12, 12, 0.6), rgba(12, 12, 12, 0.6)), url(../imgPrincipal/principalIindex2.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(12, 12, 12, 0.6)), to(rgba(12, 12, 12, 0.6))), url("https://res.cloudinary.com/lorenacoder/image/upload/v1636844310/morenaweb/imgPrincipal/principalIindex2_vm3krl.jpg");
+  background-image: linear-gradient(rgba(12, 12, 12, 0.6), rgba(12, 12, 12, 0.6)), url("https://res.cloudinary.com/lorenacoder/image/upload/v1636844310/morenaweb/imgPrincipal/principalIindex2_vm3krl.jpg");
 }
 
 @media screen and (max-width: 320px) {
@@ -87,28 +87,28 @@
   }
 }
 
-/*clases de bootstrap*/
-.card-group {
-  padding: 1rem;
-}
-
-.card-group .card {
-  margin: 1rem;
-}
-
-.card-group .card-body {
+.index {
+  margin: 1.5rem;
   background-color: #f3610c;
+  text-decoration: none;
 }
 
-.card-group .card-body-title {
-  color: white;
-  text-align: center;
-  font-family: "Open Sans", sans-serif;
-  font-size: 1.5rem;
+.index__title {
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .index__title {
+    font-size: 1.5rem;
+  }
+}
+
+.index:hover {
+  background-color: white;
 }
 
 .redirec {
-  color: #252525;
+  color: black;
   font-size: 2rem;
   font-family: "Lato", sans-serif;
   text-align: center;
@@ -152,7 +152,7 @@
 }
 
 .main__subtitulo {
-  color: #252525;
+  color: black;
   font-size: 2rem;
   font-family: "Lato", sans-serif;
   text-align: center;
@@ -183,8 +183,8 @@
   position: relative;
   -o-object-fit: cover;
      object-fit: cover;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(12, 12, 12, 0.6)), to(rgba(12, 12, 12, 0.6))), url(../imgPrincipal/principalIindex2.jpg);
-  background-image: linear-gradient(rgba(12, 12, 12, 0.6), rgba(12, 12, 12, 0.6)), url(../imgPrincipal/principalIindex2.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(12, 12, 12, 0.6)), to(rgba(12, 12, 12, 0.6))), url("https://res.cloudinary.com/lorenacoder/image/upload/v1636844310/morenaweb/imgPrincipal/principalIindex2_vm3krl.jpg");
+  background-image: linear-gradient(rgba(12, 12, 12, 0.6), rgba(12, 12, 12, 0.6)), url("https://res.cloudinary.com/lorenacoder/image/upload/v1636844310/morenaweb/imgPrincipal/principalIindex2_vm3krl.jpg");
 }
 
 @media screen and (max-width: 320px) {
@@ -217,28 +217,28 @@
   }
 }
 
-/*clases de bootstrap*/
-.card-group {
-  padding: 1rem;
-}
-
-.card-group .card {
-  margin: 1rem;
-}
-
-.card-group .card-body {
+.index {
+  margin: 1.5rem;
   background-color: #f3610c;
+  text-decoration: none;
 }
 
-.card-group .card-body-title {
-  color: white;
-  text-align: center;
-  font-family: "Open Sans", sans-serif;
-  font-size: 1.5rem;
+.index__title {
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .index__title {
+    font-size: 1.5rem;
+  }
+}
+
+.index:hover {
+  background-color: white;
 }
 
 .redirec {
-  color: #252525;
+  color: black;
   font-size: 2rem;
   font-family: "Lato", sans-serif;
   text-align: center;
@@ -276,8 +276,8 @@
   position: relative;
   -o-object-fit: cover;
      object-fit: cover;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(12, 12, 12, 0.6)), to(rgba(12, 12, 12, 0.6))), url("../imgPrincipal/nosotrosportada.jpg");
-  background-image: linear-gradient(rgba(12, 12, 12, 0.6), rgba(12, 12, 12, 0.6)), url("../imgPrincipal/nosotrosportada.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(12, 12, 12, 0.6)), to(rgba(12, 12, 12, 0.6))), url("https://res.cloudinary.com/lorenacoder/image/upload/v1636844309/morenaweb/imgPrincipal/nosotrosportada_jonkwm.jpg");
+  background-image: linear-gradient(rgba(12, 12, 12, 0.6), rgba(12, 12, 12, 0.6)), url("https://res.cloudinary.com/lorenacoder/image/upload/v1636844309/morenaweb/imgPrincipal/nosotrosportada_jonkwm.jpg");
 }
 
 .nosotros__tex {
@@ -297,9 +297,10 @@
 }
 
 .nosotros__tex--titulo {
-  color: white;
+  text-align: center;
   font-size: 3rem;
-  letter-spacing: 2rem;
+  color: white;
+  letter-spacing: 1rem;
   font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
 }
@@ -318,11 +319,19 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 2rem;
+  padding-top: 3rem;
   margin: 0%;
 }
 
+@media screen and (max-width: 320px) {
+  .presentacion {
+    font-size: 1rem;
+    padding-top: 1.5rem;
+  }
+}
+
 .presentacion_parrafo {
+  padding-top: 3rem;
   font-size: 1.5rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -334,6 +343,7 @@
 @media screen and (max-width: 768px) {
   .presentacion_parrafo {
     font-size: 1rem;
+    padding-top: 1.2rem;
   }
 }
 
@@ -360,26 +370,35 @@
 }
 
 .btn:hover {
-  background-color: #6c6d6e;
+  background-color: #949393;
   color: white;
 }
 
-.nosotros__carrusel {
+.carrusel {
   border-radius: 15px;
-  height: auto;
-  background: white;
-  -webkit-box-shadow: -7px 7px 14px #949393, 7px -7px 14px #aaa9a9;
-          box-shadow: -7px 7px 14px #949393, 7px -7px 14px #aaa9a9;
 }
 
-.fondo {
-  background-color: #6c6d6e94;
+.carrusel__fondo {
+  background-color: #949393ab;
+  border-radius: 15px;
 }
 
-.fondo__p {
-  color: black;
-  font-size: 1.5rem;
-  font-family: "Open Sans", sans-serif;
+.carrusel__text {
+  color: white;
+  font-size: 3rem;
+  font-family: lato;
+}
+
+@media screen and (max-width: 768px) {
+  .carrusel__text {
+    font-size: 1.5rem;
+  }
+}
+
+.carrusel__p {
+  color: white;
+  font-family: open;
+  font-size: 1.2rem;
 }
 
 .offcanvas-header {
@@ -445,7 +464,7 @@
 }
 
 .main__subtitulo {
-  color: #252525;
+  color: black;
   font-size: 2rem;
   font-family: "Lato", sans-serif;
   text-align: center;
@@ -476,8 +495,8 @@
   position: relative;
   -o-object-fit: cover;
      object-fit: cover;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(12, 12, 12, 0.6)), to(rgba(12, 12, 12, 0.6))), url(../imgPrincipal/principalIindex2.jpg);
-  background-image: linear-gradient(rgba(12, 12, 12, 0.6), rgba(12, 12, 12, 0.6)), url(../imgPrincipal/principalIindex2.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(12, 12, 12, 0.6)), to(rgba(12, 12, 12, 0.6))), url("https://res.cloudinary.com/lorenacoder/image/upload/v1636844310/morenaweb/imgPrincipal/principalIindex2_vm3krl.jpg");
+  background-image: linear-gradient(rgba(12, 12, 12, 0.6), rgba(12, 12, 12, 0.6)), url("https://res.cloudinary.com/lorenacoder/image/upload/v1636844310/morenaweb/imgPrincipal/principalIindex2_vm3krl.jpg");
 }
 
 @media screen and (max-width: 320px) {
@@ -510,28 +529,28 @@
   }
 }
 
-/*clases de bootstrap*/
-.card-group {
-  padding: 1rem;
-}
-
-.card-group .card {
-  margin: 1rem;
-}
-
-.card-group .card-body {
+.index {
+  margin: 1.5rem;
   background-color: #f3610c;
+  text-decoration: none;
 }
 
-.card-group .card-body-title {
-  color: white;
-  text-align: center;
-  font-family: "Open Sans", sans-serif;
-  font-size: 1.5rem;
+.index__title {
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .index__title {
+    font-size: 1.5rem;
+  }
+}
+
+.index:hover {
+  background-color: white;
 }
 
 .redirec {
-  color: #252525;
+  color: black;
   font-size: 2rem;
   font-family: "Lato", sans-serif;
   text-align: center;
@@ -562,8 +581,8 @@
   position: relative;
   -o-object-fit: cover;
      object-fit: cover;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(12, 12, 12, 0.6)), to(rgba(12, 12, 12, 0.6))), url("../imagenesMenu/sandwich.jpg");
-  background-image: linear-gradient(rgba(12, 12, 12, 0.6), rgba(12, 12, 12, 0.6)), url("../imagenesMenu/sandwich.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(12, 12, 12, 0.6)), to(rgba(12, 12, 12, 0.6))), url("https://res.cloudinary.com/lorenacoder/image/upload/v1636844310/morenaweb/imagenesMenu/pizza-gf11bc2b89_640_xk9tqu.jpg");
+  background-image: linear-gradient(rgba(12, 12, 12, 0.6), rgba(12, 12, 12, 0.6)), url("https://res.cloudinary.com/lorenacoder/image/upload/v1636844310/morenaweb/imagenesMenu/pizza-gf11bc2b89_640_xk9tqu.jpg");
   width: 100%;
   height: 400px;
 }
@@ -577,169 +596,155 @@
   text-transform: uppercase;
 }
 
-.carta__contenedor {
-  margin-bottom: 2rem;
-  margin-right: 2rem;
-}
-
-.carta__contenedor .btn-secundary {
-  -webkit-box-shadow: -7px 7px 14px #949393, 7px -7px 14px #aaa9a9;
-          box-shadow: -7px 7px 14px #949393, 7px -7px 14px #aaa9a9;
-  background-color: white;
+.carta__sb {
+  text-align: center;
+  font-size: 2rem;
+  color: white;
   font-family: "Open Sans", sans-serif;
-  margin: 1rem;
-  padding: 0%;
+  text-transform: uppercase;
+  padding: 2rem;
+  letter-spacing: 1rem;
 }
 
-.carta__contenedor .btn-secundary:hover {
+.carta__sb--tragos {
+  color: white;
+  text-decoration: none;
+}
+
+.carta__sb--tragos:hover {
+  color: black;
+}
+
+.menu {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  text-decoration: none;
+}
+
+.menu__titulo {
+  margin-top: 1rem;
+}
+
+.menu:hover {
+  color: #f3610c;
+}
+
+.text {
+  text-align: center;
+  color: black;
+  font-family: "Open Sans", sans-serif;
+}
+
+.precio {
+  border-bottom: solid 1px black;
+  width: 350px;
+  height: auto;
+}
+
+@media screen and (max-width: 320px) {
+  .precio {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .precio {
+    width: 100%;
+  }
+}
+
+.precio .precio__carta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1rem;
+}
+
+.precio .precio__carta .precio__titulo {
+  text-align: center;
+  color: #f3610c;
+  font-size: 1.5rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.precio .precio__carta .precio__icono {
+  color: black;
+}
+
+.precio .precio__costo {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.precio:hover {
   background-color: #f3610c;
-}
-
-.btn-secundary:hover .carta__contenedor__subtitulo {
   color: white;
-}
-
-.carta__contenedor .btn {
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-}
-
-@media screen and (max-width: 768px) {
-  .carta__contenedor {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-}
-
-.carta__contenedor .modal-header {
-  background-color: #f3610c;
-  color: white;
-}
-
-.carta__contenedor .modal-header #pizza {
-  font-size: 2rem;
-  letter-spacing: 5px;
-  font-family: "Open Sans", sans-serif;
-}
-
-@media screen and (max-width: 320px) {
-  .carta__contenedor .modal-header #pizza {
-    letter-spacing: 0%;
-    font-size: 1.5rem;
-  }
-}
-
-.carta__contenedor .modal-header #hamburguesaslabel {
-  font-size: 2rem;
-  letter-spacing: 5px;
-  font-family: "Open Sans", sans-serif;
-}
-
-@media screen and (max-width: 320px) {
-  .carta__contenedor .modal-header #hamburguesaslabel {
-    letter-spacing: 0%;
-    font-size: 1rem;
-  }
-}
-
-.carta__contenedor .modal-header #sandwichlabel {
-  font-size: 2rem;
-  letter-spacing: 5px;
-  font-family: "Open Sans", sans-serif;
-}
-
-@media screen and (max-width: 320px) {
-  .carta__contenedor .modal-header #sandwichlabel {
-    letter-spacing: 0%;
-    font-size: 1.5rem;
-  }
-}
-
-.carta__contenedor .modal-header #alPlatolabel {
-  font-size: 2rem;
-  letter-spacing: 5px;
-  font-family: "Open Sans", sans-serif;
-}
-
-@media screen and (max-width: 320px) {
-  .carta__contenedor .modal-header #alPlatolabel {
-    letter-spacing: 0%;
-    font-size: 1.5rem;
-  }
-}
-
-.carta__contenedor .modal-header #picadalabel {
-  font-size: 2rem;
-  letter-spacing: 5px;
-  font-family: "Open Sans", sans-serif;
-}
-
-@media screen and (max-width: 320px) {
-  .carta__contenedor .modal-header #picadalabel {
-    letter-spacing: 0%;
-    font-size: 1.5rem;
-  }
-}
-
-.carta__contenedor .modal-header #tostadolabel {
-  font-size: 2rem;
-  letter-spacing: 5px;
-  font-family: "Open Sans", sans-serif;
-}
-
-@media screen and (max-width: 320px) {
-  .carta__contenedor .modal-header #tostadolabel {
-    letter-spacing: 0%;
-    font-size: 1.5rem;
-  }
-}
-
-.carta__contenedor .modal-header .carritoModal {
-  color: white;
-}
-
-.carta__contenedor .modal-body {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(12, 12, 12, 0.6)), to(rgba(12, 12, 12, 0.6))), url(../imagenesMenu/alplato.jpg);
-  background-image: linear-gradient(rgba(12, 12, 12, 0.6), rgba(12, 12, 12, 0.6)), url(../imagenesMenu/alplato.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-.carta__contenedor .modal-body .card-text {
-  color: white;
-  font-size: 1.2rem;
-  font-family: "Open Sans", sans-serif;
-}
-
-.carta__contenedor .modal-body .card-precio {
-  color: white;
-  font-size: 1rem;
-  text-align: right;
-}
-
-.carta__contenedor .modal-footer {
-  background-color: #f3610c;
-}
-
-.carta__contenedor .modal-footer__spam {
-  color: white;
-}
-
-.carta__contenedor .modal-footer__wsp {
-  color: white;
-}
-
-.carta__contenedor .modal-footer__boton {
-  background-color: #f3610c;
-  padding: 0.5rem;
-  font-family: "Open Sans", sans-serif;
   border-radius: 15px;
-  border: none;
+}
+
+.precio:hover .precio__titulo {
+  color: white;
+}
+
+.precio:hover .precio__icono {
+  color: white;
+}
+
+.pie {
+  border-radius: 15px;
+  width: 350px;
+  padding: 2rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  background-color: #f3610c;
+  text-align: center;
+}
+
+@media screen and (max-width: 320px) {
+  .pie {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .pie {
+    width: 100%;
+  }
+}
+
+.pie__titulo {
+  color: white;
+}
+
+.pie__logo {
+  color: white;
+}
+
+.pie .pie__logo:hover {
+  color: black;
+}
+
+.pie__boton {
+  color: black;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+.pie .pie__boton:hover {
+  background-color: white;
+  color: black;
 }
 
 /*color de fuente*/
@@ -765,7 +770,7 @@
 }
 
 .main__subtitulo {
-  color: #252525;
+  color: black;
   font-size: 2rem;
   font-family: "Lato", sans-serif;
   text-align: center;
@@ -796,8 +801,8 @@
   position: relative;
   -o-object-fit: cover;
      object-fit: cover;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(12, 12, 12, 0.6)), to(rgba(12, 12, 12, 0.6))), url(../imgPrincipal/principalIindex2.jpg);
-  background-image: linear-gradient(rgba(12, 12, 12, 0.6), rgba(12, 12, 12, 0.6)), url(../imgPrincipal/principalIindex2.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(12, 12, 12, 0.6)), to(rgba(12, 12, 12, 0.6))), url("https://res.cloudinary.com/lorenacoder/image/upload/v1636844310/morenaweb/imgPrincipal/principalIindex2_vm3krl.jpg");
+  background-image: linear-gradient(rgba(12, 12, 12, 0.6), rgba(12, 12, 12, 0.6)), url("https://res.cloudinary.com/lorenacoder/image/upload/v1636844310/morenaweb/imgPrincipal/principalIindex2_vm3krl.jpg");
 }
 
 @media screen and (max-width: 320px) {
@@ -830,28 +835,174 @@
   }
 }
 
-/*clases de bootstrap*/
-.card-group {
-  padding: 1rem;
-}
-
-.card-group .card {
-  margin: 1rem;
-}
-
-.card-group .card-body {
+.index {
+  margin: 1.5rem;
   background-color: #f3610c;
+  text-decoration: none;
 }
 
-.card-group .card-body-title {
-  color: white;
-  text-align: center;
-  font-family: "Open Sans", sans-serif;
-  font-size: 1.5rem;
+.index__title {
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .index__title {
+    font-size: 1.5rem;
+  }
+}
+
+.index:hover {
+  background-color: white;
 }
 
 .redirec {
-  color: #252525;
+  color: black;
+  font-size: 2rem;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.redirec__maps {
+  width: 100%;
+  height: 400px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 15px;
+  background: white;
+  -webkit-box-shadow: -7px 7px 14px #949393, 7px -7px 14px #aaa9a9;
+          box-shadow: -7px 7px 14px #949393, 7px -7px 14px #aaa9a9;
+}
+
+.bebidas {
+  padding-top: 8rem;
+  color: white;
+  text-align: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(12, 12, 12, 0.6)), to(rgba(12, 12, 12, 0.6))), url("https://res.cloudinary.com/lorenacoder/image/upload/v1636869360/morenaweb/imagenesMenu/smoothies-gae492fc3f_1280_cg2cdo.jpg");
+  background-image: linear-gradient(rgba(12, 12, 12, 0.6), rgba(12, 12, 12, 0.6)), url("https://res.cloudinary.com/lorenacoder/image/upload/v1636869360/morenaweb/imagenesMenu/smoothies-gae492fc3f_1280_cg2cdo.jpg");
+  width: 100%;
+  height: 400px;
+}
+
+/*color de fuente*/
+/*color de fuente*/
+/*es el tamaño de varios que ocupo mas*/
+/*tamaño general, vale para padding, margin, fuentes, etc */
+/*los bordes de todas mis images para darle luz y volumen*/
+/*tamaño de titulo de portada*/
+/*width*/
+/*height*/
+/*fuente googlefond*/
+/*color de fuente*/
+/*color de fuente*/
+/*es el tamaño de varios que ocupo mas*/
+/*tamaño general, vale para padding, margin, fuentes, etc */
+/*los bordes de todas mis images para darle luz y volumen*/
+/*tamaño de titulo de portada*/
+/*width*/
+/*height*/
+/*fuente googlefond*/
+.main {
+  background-color: white;
+}
+
+.main__subtitulo {
+  color: black;
+  font-size: 2rem;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+@media screen and (max-width: 320px) {
+  .main__subtitulo {
+    padding: 1rem;
+  }
+}
+
+.main__contenedor {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  contain: content;
+}
+
+.main__contenedor--img {
+  width: 100%;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(12, 12, 12, 0.6)), to(rgba(12, 12, 12, 0.6))), url("https://res.cloudinary.com/lorenacoder/image/upload/v1636844310/morenaweb/imgPrincipal/principalIindex2_vm3krl.jpg");
+  background-image: linear-gradient(rgba(12, 12, 12, 0.6), rgba(12, 12, 12, 0.6)), url("https://res.cloudinary.com/lorenacoder/image/upload/v1636844310/morenaweb/imgPrincipal/principalIindex2_vm3krl.jpg");
+}
+
+@media screen and (max-width: 320px) {
+  .main__contenedor {
+    margin-top: 0%;
+    font-size: 3rem;
+    padding: 0%;
+    text-align: center;
+  }
+}
+
+.main__contenedor--tex {
+  position: absolute;
+  top: 150px;
+  left: 1rem;
+  right: 1rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  font-size: 3rem;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 320px) {
+  .main__contenedor--tex {
+    top: 100px;
+    font-size: 2rem;
+  }
+}
+
+.index {
+  margin: 1.5rem;
+  background-color: #f3610c;
+  text-decoration: none;
+}
+
+.index__title {
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .index__title {
+    font-size: 1.5rem;
+  }
+}
+
+.index:hover {
+  background-color: white;
+}
+
+.redirec {
+  color: black;
   font-size: 2rem;
   font-family: "Lato", sans-serif;
   text-align: center;
@@ -890,8 +1041,8 @@
   position: relative;
   -o-object-fit: cover;
      object-fit: cover;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(12, 12, 12, 0.6)), to(rgba(12, 12, 12, 0.6))), url(../imgPrincipal/principalIindex2.jpg);
-  background-image: linear-gradient(rgba(12, 12, 12, 0.6), rgba(12, 12, 12, 0.6)), url(../imgPrincipal/principalIindex2.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(12, 12, 12, 0.6)), to(rgba(12, 12, 12, 0.6))), url("https://res.cloudinary.com/lorenacoder/image/upload/v1636844310/morenaweb/imgPrincipal/principalIindex2_vm3krl.jpg");
+  background-image: linear-gradient(rgba(12, 12, 12, 0.6), rgba(12, 12, 12, 0.6)), url("https://res.cloudinary.com/lorenacoder/image/upload/v1636844310/morenaweb/imgPrincipal/principalIindex2_vm3krl.jpg");
 }
 
 .contenedor__tex {
@@ -914,7 +1065,7 @@
   }
 }
 
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 1024px) {
   .contenedor__tex {
     margin-left: 10%;
   }
@@ -981,7 +1132,7 @@
 }
 
 .main__subtitulo {
-  color: #252525;
+  color: black;
   font-size: 2rem;
   font-family: "Lato", sans-serif;
   text-align: center;
@@ -1012,8 +1163,8 @@
   position: relative;
   -o-object-fit: cover;
      object-fit: cover;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(12, 12, 12, 0.6)), to(rgba(12, 12, 12, 0.6))), url(../imgPrincipal/principalIindex2.jpg);
-  background-image: linear-gradient(rgba(12, 12, 12, 0.6), rgba(12, 12, 12, 0.6)), url(../imgPrincipal/principalIindex2.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(12, 12, 12, 0.6)), to(rgba(12, 12, 12, 0.6))), url("https://res.cloudinary.com/lorenacoder/image/upload/v1636844310/morenaweb/imgPrincipal/principalIindex2_vm3krl.jpg");
+  background-image: linear-gradient(rgba(12, 12, 12, 0.6), rgba(12, 12, 12, 0.6)), url("https://res.cloudinary.com/lorenacoder/image/upload/v1636844310/morenaweb/imgPrincipal/principalIindex2_vm3krl.jpg");
 }
 
 @media screen and (max-width: 320px) {
@@ -1046,28 +1197,28 @@
   }
 }
 
-/*clases de bootstrap*/
-.card-group {
-  padding: 1rem;
-}
-
-.card-group .card {
-  margin: 1rem;
-}
-
-.card-group .card-body {
+.index {
+  margin: 1.5rem;
   background-color: #f3610c;
+  text-decoration: none;
 }
 
-.card-group .card-body-title {
-  color: white;
-  text-align: center;
-  font-family: "Open Sans", sans-serif;
-  font-size: 1.5rem;
+.index__title {
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .index__title {
+    font-size: 1.5rem;
+  }
+}
+
+.index:hover {
+  background-color: white;
 }
 
 .redirec {
-  color: #252525;
+  color: black;
   font-size: 2rem;
   font-family: "Lato", sans-serif;
   text-align: center;
@@ -1098,8 +1249,8 @@
   position: relative;
   -o-object-fit: cover;
      object-fit: cover;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(12, 12, 12, 0.6)), to(rgba(12, 12, 12, 0.6))), url("../imgPrincipal/fondoContacto2.jpg");
-  background-image: linear-gradient(rgba(12, 12, 12, 0.6), rgba(12, 12, 12, 0.6)), url("../imgPrincipal/fondoContacto2.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(12, 12, 12, 0.6)), to(rgba(12, 12, 12, 0.6))), url(https://res.cloudinary.com/lorenacoder/image/upload/v1636844310/morenaweb/imagenesMenu/sandwich_jejycz.jpg);
+  background-image: linear-gradient(rgba(12, 12, 12, 0.6), rgba(12, 12, 12, 0.6)), url(https://res.cloudinary.com/lorenacoder/image/upload/v1636844310/morenaweb/imagenesMenu/sandwich_jejycz.jpg);
   width: 100%;
   height: 400px;
   font-family: "Open Sans", sans-serif;
@@ -1138,8 +1289,8 @@
   position: relative;
   -o-object-fit: cover;
      object-fit: cover;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(12, 12, 12, 0.6)), to(rgba(12, 12, 12, 0.6))), url("../imgPrincipal/fondoContacto2.jpg");
-  background-image: linear-gradient(rgba(12, 12, 12, 0.6), rgba(12, 12, 12, 0.6)), url("../imgPrincipal/fondoContacto2.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(12, 12, 12, 0.6)), to(rgba(12, 12, 12, 0.6))), url("https://res.cloudinary.com/lorenacoder/image/upload/v1636844310/morenaweb/imagenesMenu/sandwich_jejycz.jpg");
+  background-image: linear-gradient(rgba(12, 12, 12, 0.6), rgba(12, 12, 12, 0.6)), url("https://res.cloudinary.com/lorenacoder/image/upload/v1636844310/morenaweb/imagenesMenu/sandwich_jejycz.jpg");
   -webkit-box-shadow: -7px 7px 14px #949393, 7px -7px 14px #aaa9a9;
           box-shadow: -7px 7px 14px #949393, 7px -7px 14px #aaa9a9;
 }
@@ -1171,6 +1322,19 @@
   color: white;
   font-family: white;
   font-family: "Open Sans", sans-serif;
+  padding: 0 6rem;
+}
+
+@media screen and (max-width: 320px) {
+  .main__contacto__formulario .formulario__sucursal {
+    padding: 0%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main__contacto__formulario .formulario__sucursal {
+    padding: 0%;
+  }
 }
 
 .main__contacto__formulario .formulario__sucursal__label {
@@ -1205,6 +1369,19 @@
           justify-content: center;
   color: black;
   font-size: 1.5rem;
+  padding: 0 8rem;
+}
+
+@media screen and (max-width: 320px) {
+  .main__contacto__formulario .formulario__calif {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main__contacto__formulario .formulario__calif {
+    padding: 0;
+  }
 }
 
 .main__contacto__formulario .formulario__calif .form-label {
@@ -1240,7 +1417,7 @@
 /*fuente googlefond*/
 .footer {
   display: inline;
-  width: 100%;
+  width: 100vh;
   color: white;
 }
 

@@ -1,0 +1,26 @@
+@import"./variables";
+@import "./main";
+@import "./media";
+
+.bebidas {
+    padding-top: 8rem;
+    color: $fondo;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    object-fit: cover;
+    background-image: linear-gradient(rgba(12, 12, 12, 0.6),
+     rgba(12, 12, 12, 0.6)), 
+     url("https://res.cloudinary.com/lorenacoder/image/upload/v1636869360/morenaweb/imagenesMenu/smoothies-gae492fc3f_1280_cg2cdo.jpg");
+    width: $w;
+    height: $h;  
+    
+ }
+ 
+
+
+
+
+  

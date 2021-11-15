@@ -1,22 +1,15 @@
 @import "./variables";
 @import "./media";
 
-
-
 .main {
     background-color: $fondo;
 
-
-
     &__subtitulo {
-        color: rgb(37, 37, 37);
+        color: black;
         font-size: 2rem;
         font-family: $lato;
         text-align: center;
         padding-top: $medida;
-
-
-
 
         @include movil {
             padding: $medida;
@@ -31,8 +24,6 @@
         text-align: center;
         contain: content;
 
-
-
         &--img {
             width: $w;
             height: $h;
@@ -41,8 +32,9 @@
             background-size: cover;
             position: relative;
             object-fit: cover;
-            background-image: linear-gradient(rgba(12, 12, 12, 0.6), rgba(12, 12, 12, 0.6)), url(../imgPrincipal/principalIindex2.jpg);
-
+            background-image: linear-gradient(rgba(12, 12, 12, 0.6),
+             rgba(12, 12, 12, 0.6)), 
+             url("https://res.cloudinary.com/lorenacoder/image/upload/v1636844310/morenaweb/imgPrincipal/principalIindex2_vm3krl.jpg");
 
         }
 
@@ -51,7 +43,6 @@
             font-size: $portada;
             padding: 0%;
             text-align: center;
-
         }
 
         &--tex {
@@ -64,44 +55,40 @@
             font-size: $portada;
             font-family: $open;
             text-transform: uppercase;
+            
 
             @include movil {
                 top: 100px;
                 font-size: 2rem;
-
-
             }
         }
     }
-
-
 }
 
-/*clases de bootstrap*/
-.card-group {
-    padding: $medida;
 
-    .card {
-        margin: $medida;
+.index {
+    margin: 1.5rem;
+    background-color: $contraste;
+    text-decoration: none;
 
+    &__title {
+        color: black;
 
-        &-body {
-            background-color: $contraste;
-
-            &-title {
-                color: $fondo;
-                text-align: center;
-                font-family: $open;
-                font-size: 1.5rem;
-            }
+        @include tablet {
+            font-size: 1.5rem;
         }
     }
+}
+
+.index:hover {
+    background-color: $fondo;
+
 }
 
 
 
 .redirec {
-    color: rgb(37, 37, 37);
+    color: black;
     font-size: 2rem;
     font-family: $lato;
     text-align: center;

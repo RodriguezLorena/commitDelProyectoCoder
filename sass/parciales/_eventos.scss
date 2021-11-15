@@ -3,17 +3,11 @@
 @import "./media";
 
 
-
-
-
 .contenedor {
   position: relative;
   display: flex;
   text-align: center;
   contain: content;
-
-
-
 
   &__img {
     width: 100%;
@@ -23,9 +17,9 @@
     background-size: cover;
     position: relative;
     object-fit: cover;
-    background-image: linear-gradient(rgba(12, 12, 12, 0.6), rgba(12, 12, 12, 0.6)), url(../imgPrincipal/principalIindex2.jpg);
-
-
+    background-image: linear-gradient(rgba(12, 12, 12, 0.6),
+        rgba(12, 12, 12, 0.6)),
+      url("https://res.cloudinary.com/lorenacoder/image/upload/v1636844310/morenaweb/imgPrincipal/principalIindex2_vm3krl.jpg");
 
 
   }
@@ -73,14 +67,12 @@
 
 
 .card {
-
   height: 100%;
   object-fit: cover;
   border-radius: 15px;
   background: $fondo;
   box-shadow: $shadow;
   padding: $medida;
-
 
 
   &-body {
@@ -91,12 +83,13 @@
       font-size: 2rem;
       font-family: $open;
     }
+
     &-text {
       font-size: $medida;
       color: $fuente;
-      font-family:$open;
+      font-family: $open;
     }
-   
+
   }
-  
+
 }

@@ -2,16 +2,10 @@
 @import "./main";
 @import "./media";
 
-
-
-
-
 .nosotros {
     position: relative;
     display: flex;
     text-align: center;
-
-
 
     &__img {
         width: $w;
@@ -21,7 +15,9 @@
         background-size: cover;
         position: relative;
         object-fit: cover;
-        background-image: linear-gradient(rgba(12, 12, 12, 0.6), rgba(12, 12, 12, 0.6)), url("../imgPrincipal/nosotrosportada.jpg");
+        background-image: linear-gradient(rgba(12, 12, 12, 0.6),
+        rgba(12, 12, 12, 0.6)), 
+        url("https://res.cloudinary.com/lorenacoder/image/upload/v1636844309/morenaweb/imgPrincipal/nosotrosportada_jonkwm.jpg");
 
     }
 
@@ -39,9 +35,10 @@
         }
 
         &--titulo {
-            color: $fondo;
+            text-align: center;
             font-size: $portada;
-            letter-spacing: 2rem;
+            color: $fondo;
+            letter-spacing: $medida;
             font-family: $open;
             text-transform: uppercase;
 
@@ -62,21 +59,28 @@
 .presentacion {
     padding-bottom: $medida;
     justify-content: center;
-    padding: 2rem;
+    padding-top: $portada;
     margin: 0%;
 
+    @include movil {
+        font-size: $medida;
+        padding-top: 1.5rem;
 
+    }
 
     &_parrafo {
-
+        padding-top: 3rem;
         font-size: 1.5rem;
         align-items: center;
         font-family: $open;
         color: $fuente;
 
+
+
+
         @include tablet {
             font-size: $medida;
-
+            padding-top: 1.2rem;
         }
 
 
@@ -102,38 +106,42 @@
     }
 
     &:hover {
-        background-color: #6c6d6e;
+        background-color: #949393;
         color: $fondo;
 
     }
 
 }
 
-.nosotros__carrusel {
+.carrusel {
     border-radius: 15px;
 
-    height: auto;
-    background: $fondo;
-    box-shadow: $shadow;
-
-
-
-}
-
-
-
-.fondo {
-    background-color: #6c6d6e94;
-
-
-
-    &__p {
-        color: $fuente;
-        font-size: 1.5rem;
-        font-family: $open;
+    &__fondo {
+        background-color: #949393ab;
+        border-radius: 15px;
     }
 
+    &__text {
+        color: $fondo;
+        font-size: $portada;
+        font-family: lato;
+
+        @include tablet {
+            font-size: 1.5rem;
+        }
+
+    }
+
+    &__p {
+        color: $fondo;
+        font-family: open;
+        font-size: 1.2rem;
+
+    }
+
+
 }
+
 
 .offcanvas {
 
@@ -150,9 +158,6 @@
                 font-size: $medida;
             }
         }
-
-
-
     }
 
     &-body {

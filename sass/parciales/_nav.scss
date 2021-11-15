@@ -12,19 +12,12 @@
   &__item {
     background-color: $contraste;
 
-
-
-
-
     &--seccion {
       font-size: 1.2rem;
       margin-right: $medida;
       padding: 0%;
       color: $fondo;
       font-family: $lato;
-
-
-
 
       @include movil {
         padding-top: $medida;
@@ -40,13 +33,10 @@
     }
   }
 
-
   .sectionNav__ico {
     color: $fondo;
 
   }
-
-
 
   &__logo {
     color: $fondo;
@@ -59,15 +49,11 @@
       font-size: 2.5rem;
       margin: 0;
     }
-
   }
-
 
   &__redes {
     color: $fondo;
     margin-top: $medida;
     margin-right: $medida;
-
   }
-
 }

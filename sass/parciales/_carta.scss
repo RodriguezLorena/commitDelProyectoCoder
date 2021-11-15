@@ -11,7 +11,9 @@
     background-size: cover;
     position: relative;
     object-fit: cover;
-    background-image: linear-gradient(rgba(12, 12, 12, 0.6), rgba(12, 12, 12, 0.6)), url("../imagenesMenu/sandwich.jpg");
+    background-image: linear-gradient(rgba(12, 12, 12, 0.6), 
+    rgba(12, 12, 12, 0.6)), 
+    url("https://res.cloudinary.com/lorenacoder/image/upload/v1636844310/morenaweb/imagenesMenu/pizza-gf11bc2b89_640_xk9tqu.jpg");
     width: $w;
     height: $h;
 
@@ -24,181 +26,149 @@
         text-transform: uppercase;
 
     }
+    &__sb {
+        text-align: center;
+        font-size: 2rem;
+        color: $fondo;
+        font-family: $open;
+        text-transform: uppercase;
+        padding: 2rem;
+        letter-spacing: $medida;
+     &--tragos{
+         color: $fondo;
+         text-decoration: none;
+        
+     }
+     &--tragos:hover{
+         color:$fuente;
+         
+     }
+    }
+  
+ }
 
+  .menu{
+      text-align: center;
+      font-family: $open;
+      color: black;
+      text-decoration: none;
+       &__titulo{
+           margin-top: $medida;
+           
+       }
+            
+  }
 
+  .menu:hover{
+    color: $contraste;
+    
+    }
+  
 
-    &__contenedor {
-        margin-bottom: 2rem;
-        margin-right: 2rem;
+.text{
+    text-align: center;
+    color: $fuente;
+    font-family: $open;
+    
+}
 
     
+   
 
+   .precio{
+    border-bottom: solid 1px $fuente;
+    width: 350px;
+    height: auto;
+    
+    @include movil{
+        width: $w;
 
-        .btn-secundary {
-            box-shadow: $shadow;
-            background-color: $fondo;
+     }
+     @include notebook{
+        width: $w;
+      }
+     
+    .precio__carta{
+        display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+       padding: 1rem;
+        .precio__titulo{
+            text-align: center;
+            color: $contraste;
+            font-size: 1.5rem;
             font-family: $open;
-            margin: $medida;
-            padding: 0%;
-
-
+   
+           
         }
 
-        .btn-secundary:hover {
-            background-color: $contraste;
-
+        .precio__icono{
+            color:$fuente;
         }
-
-        .btn-secundary:hover &__subtitulo {
-            color: $fondo;
-
-        }
-
-        .btn {
-            transition: all 0.5s;
-
-        }
-
-        @include tablet{
-            justify-content: center;
-          
-        }
-
-        .modal-header {
-            background-color: $contraste;
-            color: $fondo;
-
-
-
-            #pizza {
-                font-size: 2rem;
-                letter-spacing: 5px;
-                font-family: $open;
-
-                @include movil {
-                    letter-spacing: 0%;
-                    font-size: 1.5rem;
-                }
-            }
-
-            #hamburguesaslabel {
-                font-size: 2rem;
-                letter-spacing: 5px;
-                font-family: $open;
-
-                @include movil {
-                    letter-spacing: 0%;
-                    font-size: 1rem;
-                }
-            }
-
-            #sandwichlabel {
-                font-size: 2rem;
-                letter-spacing: 5px;
-                font-family: $open;
-
-                @include movil {
-                    letter-spacing: 0%;
-                    font-size: 1.5rem;
-                }
-            }
-
-            #alPlatolabel {
-                font-size: 2rem;
-                letter-spacing: 5px;
-                font-family: $open;
-
-                @include movil {
-                    letter-spacing: 0%;
-                    font-size: 1.5rem;
-                }
-            }
-
-            #picadalabel {
-                font-size: 2rem;
-                letter-spacing: 5px;
-                font-family: $open;
-
-                @include movil {
-                    letter-spacing: 0%;
-                    font-size: 1.5rem;
-                }
-            }
-
-            #tostadolabel {
-                font-size: 2rem;
-                letter-spacing: 5px;
-                font-family: $open;
-
-                @include movil {
-                    letter-spacing: 0%;
-                    font-size: 1.5rem;
-                }
-
-            }
-
-            .carritoModal {
-                color: $fondo;
-            }
-        }
-
-
-
-
-        .modal-body {
-            background-image: linear-gradient(rgba(12, 12, 12, 0.6), rgba(12, 12, 12, 0.6)), url(../imagenesMenu/alplato.jpg);
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            position: relative;
-            object-fit: cover;
-
-
-            .card-text {
-                color: $fondo;
-                font-size: 1.2rem;
-                font-family: $open;
-
-
-            }
-
-            .card-precio {
-                color: $fondo;
-                font-size: $medida;
-                text-align: right;
-
-            }
-
-
-
-        }
-
-
-        .modal-footer {
-            background-color: $contraste;
-
-            &__spam {
-                color: $fondo;
-            }
-
-            &__wsp {
-                color: $fondo;
-            }
-
-            &__boton {
-                background-color: $contraste;
-                padding: 0.5rem;
-                font-family: $open;
-                border-radius: 15px;
-                border: none;
-
-
-
-            }
-
-        }
-
-
     }
 
+    .precio__costo{
+        text-align:center;
+        font-family: $open;
+        font-size: 1.5rem;
+        color: $fuente;
+    }
+}  
+.precio:hover{
+    background-color: $contraste;
+    color: $fondo;
+    border-radius: 15px;
+    
+    .precio__titulo{
+        color: $fondo;
+    }
+
+    .precio__icono{
+        color: $fondo;
+    }
+}
+
+.pie{
+    border-radius: 15px;
+    width: 350px;
+    padding: 2rem;
+    
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    background-color: $contraste;
+    text-align: center;
+    
+    @include movil{
+        width: 100%;
+
+     }
+     @include notebook{
+        width: 100%;
+      }
+
+    &__titulo{
+        color:$fondo;
+    }
+    &__logo{
+        color:$fondo;
+    }
+    .pie__logo:hover{
+        color:$fuente;
+    }
+    &__boton{
+    
+    color: $fuente;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family:$open;
+    
+   
+    }
+   .pie__boton:hover{
+        background-color: $fondo;
+        color: $fuente;
+        
+    }
+   
 }
